@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Sparkles, Cloud, CircleDot, ArrowLeft, Info, Download } from 'lucide-react';
 import { EmotionState } from './types';
-import { supabase } from './lib/supabase';
+import emotionsData from './data/emotions/emotions_data.json';
 
 const categoryIcons: { [key: string]: React.ReactNode } = {
   "POSITIVE EMOTIONS": <Sparkles className="w-5 h-5 text-yellow-400" />,
@@ -48,51 +48,27 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState<string>("");
 
   useEffect(() => {
-    fetchCategories();
+    // Load categories from local JSON
+    setCategories(emotionsData);
   }, []);
 
   useEffect(() => {
     if (selected.category) {
-      fetchSubcategories();
+      // Find subcategories from the selected category
       const category = categories.find(c => c.id === selected.category);
+      setSubcategories(category?.subcategories || []);
       setCurrentCategory(category?.name || "");
     }
   }, [selected.category, categories]);
 
   useEffect(() => {
     if (selected.subcategory) {
-      fetchEmotionTypes();
+      // Find emotion types from the selected subcategory
+      const category = categories.find(c => c.id === selected.category);
+      const subcategory = category?.subcategories.find(s => s.id === selected.subcategory);
+      setEmotionTypes(subcategory?.emotion_types || []);
     }
-  }, [selected.subcategory]);
-
-  const fetchCategories = async () => {
-    const { data, error } = await supabase
-      .from('categories')
-      .select('*');
-    if (error) console.error('Error fetching categories:', error);
-    else setCategories(data || []);
-  };
-
-  const fetchSubcategories = async () => {
-    const { data, error } = await supabase
-      .from('subcategories')
-      .select('*')
-      .eq('category_id', selected.category);
-    if (error) console.error('Error fetching subcategories:', error);
-    else setSubcategories(data || []);
-  };
-
-  const fetchEmotionTypes = async () => {
-    const { data, error } = await supabase
-      .from('emotion_types')
-      .select(`
-        *,
-        emotion_words (*)
-      `)
-      .eq('subcategory_id', selected.subcategory);
-    if (error) console.error('Error fetching emotion types:', error);
-    else setEmotionTypes(data || []);
-  };
+  }, [selected.subcategory, categories, selected.category]);
 
   const handleReset = () => {
     setSelected({
@@ -114,53 +90,10 @@ function App() {
     }
   };
 
-  const handleDownload = async () => {
+  const handleDownload = () => {
     try {
-      console.log('Building emotions data...');
-      
-      // Fetch all data needed
-      const { data: categoriesData, error: catError } = await supabase
-        .from('categories')
-        .select('*');
-      
-      if (catError) throw catError;
-
-      // Build the hierarchical data
-      const fullData = await Promise.all(categoriesData.map(async (category) => {
-        // Get subcategories for this category
-        const { data: subcatsData } = await supabase
-          .from('subcategories')
-          .select('*')
-          .eq('category_id', category.id);
-
-        const subcategories = await Promise.all((subcatsData || []).map(async (sub) => {
-          // Get emotion types for this subcategory
-          const { data: typesData } = await supabase
-            .from('emotion_types')
-            .select(`
-              *,
-              emotion_words (*)
-            `)
-            .eq('subcategory_id', sub.id);
-
-          return {
-            id: sub.id,
-            name: sub.name,
-            emotion_types: typesData || []
-          };
-        }));
-
-        return {
-          id: category.id,
-          name: category.name,
-          subcategories
-        };
-      }));
-
-      console.log('Data built:', fullData);
-      
       // Create and trigger download
-      const blob = new Blob([JSON.stringify(fullData, null, 2)], { type: 'application/json' });
+      const blob = new Blob([JSON.stringify(emotionsData, null, 2)], { type: 'application/json' });
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;

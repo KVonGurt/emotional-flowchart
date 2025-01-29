@@ -1,0 +1,3513 @@
+[
+  {
+    "id": "288e2ee5-0ece-4be5-befd-fc2f784d39d9",
+    "name": "POSITIVE EMOTIONS",
+    "subcategories": [
+      {
+        "id": "1cd72215-3481-45af-afe6-b5eed52f2f3e",
+        "name": "Happiness/Joy",
+        "emotion_types": [
+          {
+            "id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+            "subcategory_id": "1cd72215-3481-45af-afe6-b5eed52f2f3e",
+            "name": "Core",
+            "created_at": "2025-01-22T17:08:30.236822+00:00",
+            "emotion_words": [
+              {
+                "id": "7e7d8693-5251-4daa-858d-4aa2f5451f44",
+                "word": "Content",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "In a state of peaceful happiness and satisfaction"
+              },
+              {
+                "id": "1d6c81b5-b79d-4060-87e4-fb71ed7043f9",
+                "word": "Glad",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Feeling joy or pleasure; delighted"
+              },
+              {
+                "id": "0fa714b9-f0f8-4fb5-94ef-6cd9af2dce8b",
+                "word": "Buoyant",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Cheerful and optimistic"
+              },
+              {
+                "id": "4617fdc9-1c73-4092-b045-983b1d0c92ba",
+                "word": "Chipper",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Cheerful and lively"
+              },
+              {
+                "id": "c2c61f78-4d71-4f44-ab5e-f6721ca60dc9",
+                "word": "Upbeat",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Optimistic and cheerful"
+              },
+              {
+                "id": "eb4f99dd-6c46-4025-8808-0977a380bf9d",
+                "word": "Beaming",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Radiating joy or happiness"
+              },
+              {
+                "id": "ba86e7a3-d5f9-4d3f-a70b-f8d0fdc87e66",
+                "word": "Delighted",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Feeling great pleasure and joy"
+              },
+              {
+                "id": "65d5d80c-f4e3-4b09-a82b-b7335dd7f731",
+                "word": "Satisfied",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Content and pleased"
+              },
+              {
+                "id": "000c9043-5c17-4485-9012-0829c6967eb9",
+                "word": "Lighthearted",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Carefree and cheerful"
+              },
+              {
+                "id": "062ab1de-6278-4b98-bce9-dca28a0830e3",
+                "word": "Pleased",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Happy or satisfied"
+              },
+              {
+                "id": "bb4db544-2cc8-4c34-9b41-0c4c24393256",
+                "word": "Cheery",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Noticeably happy and optimistic"
+              },
+              {
+                "id": "1ecbc993-6dcb-4844-8f60-eb9b1fec9454",
+                "word": "Cheerful",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Full of good spirits and joy"
+              },
+              {
+                "id": "0af05cfd-fc14-400e-aa9d-04655e9dfa7f",
+                "word": "Joyful",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Feeling, expressing, or causing great pleasure and happiness"
+              },
+              {
+                "id": "874f1766-1c0d-42cc-a8c0-227241c69105",
+                "word": "Elated",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Extremely happy and excited"
+              },
+              {
+                "id": "a8beaad7-1845-4fd2-9e28-564edf9bf967",
+                "word": "Ecstatic",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Feeling or expressing overwhelming happiness"
+              },
+              {
+                "id": "14d73ef7-f473-45c0-a2fe-3fa269cd30a2",
+                "word": "Overjoyed",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Extremely joyful; delighted"
+              },
+              {
+                "id": "125856b8-b802-40cb-96eb-97285ef3b8ff",
+                "word": "Jubilant",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Feeling or expressing great happiness and triumph"
+              },
+              {
+                "id": "4914e9a9-51e6-4d35-8f1c-eac98a587083",
+                "word": "Euphoric",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Characterized by intense feelings of well-being and happiness"
+              },
+              {
+                "id": "c7002bf0-58fc-4a69-ab36-34155373c8c6",
+                "word": "Exultant",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Triumphantly happy"
+              },
+              {
+                "id": "22cec77f-fb6a-4158-b66f-dd9813bc23ca",
+                "word": "Enraptured",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Filled with delight and wonder"
+              },
+              {
+                "id": "3f99aeb7-2986-4d42-8260-e61bc3fb1bb9",
+                "word": "Blissful",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Perfect happiness; serene joy"
+              },
+              {
+                "id": "5d13d72c-b1e6-4225-ae1c-9a520b12674a",
+                "word": "Beatific",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Showing or feeling supreme happiness"
+              },
+              {
+                "id": "358877aa-24ea-4cbb-9c1b-0ad0b46f79b1",
+                "word": "Rapturous",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Characterized by, feeling, or expressing great pleasure"
+              },
+              {
+                "id": "71c35aee-63f7-4cce-9a57-2bef0310a75a",
+                "word": "Delirious",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "In a state of wild excitement or ecstasy"
+              },
+              {
+                "id": "7b90105d-1130-4506-948f-75f76c875a84",
+                "word": "Radiant",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Showing great joy, love, or health"
+              },
+              {
+                "id": "8a900f12-5aa5-4958-94e6-c2eb4afb14f2",
+                "word": "Vibrant",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Full of energy and enthusiasm"
+              },
+              {
+                "id": "4d050b4f-8733-45e9-9202-bdf5762b6552",
+                "word": "Wonderful",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Experiencing a feeling of wonder and delight"
+              },
+              {
+                "id": "ed2a7c01-b6f1-4135-8ea2-f70ac5f2d88e",
+                "word": "Fantastic",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Extraordinarily good or pleasant"
+              },
+              {
+                "id": "5bbb8fcf-b2b7-4c6e-b25c-4455d4c5cfc7",
+                "word": "Marvelous",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Causing great wonder or delight"
+              },
+              {
+                "id": "2c99c10f-677e-445a-8fc6-eef9a23d61c2",
+                "word": "Splendid",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Magnificent or excellent"
+              },
+              {
+                "id": "0b4bd72d-460d-4b14-88f1-50be870d995a",
+                "word": "Peaceful",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Free from disturbance; tranquil"
+              },
+              {
+                "id": "bb81fe04-1722-4ad5-b96e-99c189b56b29",
+                "word": "Serene",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Calm, peaceful, and untroubled"
+              },
+              {
+                "id": "1e92e507-6687-4355-86f6-d3f0555cce87",
+                "word": "Alive",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Full of energy and spirit"
+              },
+              {
+                "id": "e0aab421-ce89-4c34-8403-53d75fde55f7",
+                "word": "Energized",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Filled with energy and enthusiasm"
+              },
+              {
+                "id": "4d9e0ae0-0484-425f-8cd1-3b17dcc4404c",
+                "word": "Inspired",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Mentally stimulated to do something creative"
+              },
+              {
+                "id": "f49d7947-12a6-4f87-8ec9-4403d09c2b2f",
+                "word": "Refreshed",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling renewed in mind or spirit"
+              },
+              {
+                "id": "65c1c359-800c-4041-aacb-6e02c3afb2a4",
+                "word": "Optimistic",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Hopeful and confident about the future"
+              },
+              {
+                "id": "7334bb8c-b4c5-490b-85a0-aed031aae75f",
+                "word": "Renewed",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling fresh and energetic again"
+              },
+              {
+                "id": "8ae3796b-f708-4dad-97ec-49a612516f12",
+                "word": "Elevated",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Lifted up in spirit"
+              },
+              {
+                "id": "41df58c0-ffc1-4c97-9a58-9bb1db86a4dd",
+                "word": "Fulfilled",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Satisfied or happy because of fully developing one's abilities or character"
+              },
+              {
+                "id": "2b6f350c-bcbd-462c-97df-0bc61dbde781",
+                "word": "Thrilled",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling intense excitement and pleasure"
+              },
+              {
+                "id": "a725962c-7b0a-4e45-8b63-e533d245859c",
+                "word": "Enthusiastic",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Having or showing intense interest or excitement"
+              },
+              {
+                "id": "e7e43a7f-2d9b-420a-a4bc-97878492a638",
+                "word": "Gleeful",
+                "type_id": "410b4afe-481b-4bca-ab2c-2b615bb05517",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling great delight or joy"
+              }
+            ]
+          },
+          {
+            "id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+            "subcategory_id": "1cd72215-3481-45af-afe6-b5eed52f2f3e",
+            "name": "Slang",
+            "created_at": "2025-01-22T17:08:30.236822+00:00",
+            "emotion_words": [
+              {
+                "id": "3b3b0dc9-698c-4f82-a057-cff1433cfb1a",
+                "word": "Chilled",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Relaxed and content"
+              },
+              {
+                "id": "d36dded3-e5a1-4486-91be-885bca6ef7b4",
+                "word": "Vibing",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "In a state of harmony or agreement with someone or something"
+              },
+              {
+                "id": "1f4472e9-0864-4963-8560-d18155766dae",
+                "word": "Jazzed",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Very excited or enthusiastic"
+              },
+              {
+                "id": "d840248e-3faf-47ef-ad46-45b0955dea50",
+                "word": "Lit",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Exciting or excellent"
+              },
+              {
+                "id": "77bf7b3d-7f90-46b0-a462-24582d6f60da",
+                "word": "Pumped",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Very excited or enthusiastic"
+              },
+              {
+                "id": "5614af1b-baec-4e4c-b87a-b65f556ae9b7",
+                "word": "Stoked",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Very excited or enthusiastic"
+              },
+              {
+                "id": "09f70402-1e6b-4d22-9a54-2105f8b73270",
+                "word": "Yasss",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Enthusiastic agreement or approval"
+              },
+              {
+                "id": "53c6ddae-3db5-480e-9166-ae60b8f456fc",
+                "word": "On point",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Feeling perfect or exactly right"
+              },
+              {
+                "id": "7d9af77f-3141-4cd5-bf17-286b122c6552",
+                "word": "Living",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Experiencing life to the fullest"
+              },
+              {
+                "id": "ba8cd9e7-9984-40fe-b9c4-17817b47b721",
+                "word": "Blessed",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Feeling fortunate or lucky"
+              },
+              {
+                "id": "c4a074d3-3d0f-4619-a425-230b9da53c24",
+                "word": "Gucci",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Feeling good or doing well"
+              },
+              {
+                "id": "82af5608-eac1-4178-b5fb-f4a2fad8c70d",
+                "word": "Hyped",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Very excited or enthusiastic"
+              },
+              {
+                "id": "c830f51a-93ed-4d9f-b4c8-f4967f562278",
+                "word": "Buzzed",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling excited and energetic"
+              },
+              {
+                "id": "c671fad3-baa7-4806-baab-e142f2845adc",
+                "word": "Glowing up",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Experiencing positive personal growth or improvement"
+              },
+              {
+                "id": "e45d6133-637f-4e23-aaff-e2fb3a7803e7",
+                "word": "Winning",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Experiencing success or achievement"
+              },
+              {
+                "id": "7d652a81-23ea-46f3-950e-ae76c8ca91d6",
+                "word": "Thriving",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Prospering and growing"
+              },
+              {
+                "id": "2cd70e8a-9000-4e42-9734-744ba979513f",
+                "word": "Zen",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Peaceful and relaxed"
+              },
+              {
+                "id": "880c1efd-8f51-43e1-a9ed-203c4c68c94f",
+                "word": "Groovy",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling excellent or satisfying"
+              },
+              {
+                "id": "b20a1c97-8e4a-44fa-afd5-f35f5c661bbb",
+                "word": "Stellar",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling exceptionally good"
+              },
+              {
+                "id": "a90ffbbf-3245-46dc-8e1d-d80987fe7d12",
+                "word": "Peachy",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling excellent or splendid"
+              },
+              {
+                "id": "5de4d993-6bc0-4097-9b5f-33b5d25d14c0",
+                "word": "Epic",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling particularly impressive or remarkable"
+              },
+              {
+                "id": "a657ace4-2d99-4145-a73e-ae900e41d11a",
+                "word": "Legendary",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling remarkably good or impressive"
+              },
+              {
+                "id": "b538f18f-54f8-4526-af5f-272553276ef4",
+                "word": "Feeling myself",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Confident and content with oneself"
+              },
+              {
+                "id": "a1cfae9e-ceed-491a-881a-8002de9e9316",
+                "word": "Big mood",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Strongly relating to a positive feeling"
+              },
+              {
+                "id": "463c65e0-3b67-4608-867c-0d3c670bd53a",
+                "word": "Slay",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Doing exceptionally well"
+              },
+              {
+                "id": "cb706ba7-2328-4aa4-8b1f-de63b71e2fb5",
+                "word": "No cap",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Being completely honest about feeling good"
+              },
+              {
+                "id": "557522bd-1871-44ea-979b-4b136b0e8933",
+                "word": "Living rent free",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Constantly enjoying a thought or feeling"
+              },
+              {
+                "id": "75b6d7c4-67b3-44f1-bcd2-38538479f80e",
+                "word": "Main character energy",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Feeling like everything is going your way"
+              },
+              {
+                "id": "a1fd0251-6c0d-40b5-b7d2-2f1207701378",
+                "word": "Understood the assignment",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Excelling at something"
+              },
+              {
+                "id": "aa6d4d2f-e4d7-44bd-9e75-1d4f6ebc7aaa",
+                "word": "Ate that",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Did something exceptionally well"
+              },
+              {
+                "id": "198c5ff8-6d5d-4997-ae48-8832105bf27c",
+                "word": "Serving",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Presenting oneself excellently"
+              },
+              {
+                "id": "1862c1f0-d5e2-4bf6-89d3-82022cfac215",
+                "word": "It's giving winner",
+                "type_id": "213c49c2-65a0-467d-b345-ec5e8d669c1d",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Displaying successful or winning qualities"
+              }
+            ]
+          },
+          {
+            "id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+            "subcategory_id": "1cd72215-3481-45af-afe6-b5eed52f2f3e",
+            "name": "Compound/Phrasal",
+            "created_at": "2025-01-22T17:08:30.236822+00:00",
+            "emotion_words": [
+              {
+                "id": "29b198b6-dd18-42c4-9b76-874d23e267f0",
+                "word": "Feeling sunny",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Having a bright, optimistic outlook"
+              },
+              {
+                "id": "396600f0-89a0-4017-889a-53400ed4230b",
+                "word": "In high spirits",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Very happy and cheerful"
+              },
+              {
+                "id": "c1451857-ffa8-4cda-b7eb-7d0e623d4898",
+                "word": "Full of beans",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Full of energy and enthusiasm"
+              },
+              {
+                "id": "e1280526-dae2-4ad9-b680-bb3599bc2a4d",
+                "word": "Tickled pink",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Very pleased or amused"
+              },
+              {
+                "id": "19510bdd-36e6-4fb9-8579-867f3c04a79f",
+                "word": "Happy as a clam",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Very happy and content"
+              },
+              {
+                "id": "ff927c72-5fd9-498e-a9c9-ccb6154bcca3",
+                "word": "On a high",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Feeling euphoric or extremely happy"
+              },
+              {
+                "id": "049b322d-830b-4b7c-8adb-4215b23c64ef",
+                "word": "Riding high",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Experiencing success or good fortune"
+              },
+              {
+                "id": "3b67c495-701f-41b0-85f4-bb61221762ca",
+                "word": "Over the moon",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Extremely happy or delighted"
+              },
+              {
+                "id": "f516b322-b414-4337-9202-c0d9ba40b3af",
+                "word": "On cloud nine",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "In a state of extreme happiness"
+              },
+              {
+                "id": "3c82708d-62d5-4e9f-af3d-5f2906255540",
+                "word": "In seventh heaven",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "In a state of perfect happiness"
+              },
+              {
+                "id": "b3a306e8-6275-4274-8f8f-1bb06df363bf",
+                "word": "Living my best life",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Experiencing life at its most enjoyable or successful"
+              },
+              {
+                "id": "70ad0a45-65de-49f4-a66e-23669126af66",
+                "word": "Bright-eyed and bushy-tailed",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Cheerful and ready for anything"
+              },
+              {
+                "id": "07f609f9-cb3c-4a71-b0cb-bb4a21991170",
+                "word": "Walking on air",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Feeling extremely happy"
+              },
+              {
+                "id": "3234731f-7374-4296-b07d-b074da306c7f",
+                "word": "Heart full of sunshine",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Feeling completely happy and content"
+              },
+              {
+                "id": "789f6c62-1ff7-4ab3-80a9-d2df12fcca73",
+                "word": "Dancing on clouds",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Feeling extremely joyful and carefree"
+              },
+              {
+                "id": "b1cb1d8a-0806-4a63-a798-b2ba7c1ad9b9",
+                "word": "Jumping for joy",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Extremely happy and excited"
+              },
+              {
+                "id": "00f2b87b-b13e-4473-a9a3-0a5b8d367284",
+                "word": "On top of the world",
+                "type_id": "a82f57a6-bcb9-4e2f-a90e-a40aa47f9404",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Feeling extremely happy and successful"
+              }
+            ]
+          },
+          {
+            "id": "f667bad6-e5aa-458c-a4a1-f08638eef3cb",
+            "subcategory_id": "1cd72215-3481-45af-afe6-b5eed52f2f3e",
+            "name": "Metaphorical",
+            "created_at": "2025-01-22T17:08:30.236822+00:00",
+            "emotion_words": [
+              {
+                "id": "01527b22-ddf0-498f-8de4-9f891a783dc6",
+                "word": "Like a ray of sunshine",
+                "type_id": "f667bad6-e5aa-458c-a4a1-f08638eef3cb",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Bringing happiness and brightness to a situation"
+              },
+              {
+                "id": "b4c8c974-6d0b-496b-bdfb-704b2dbe001d",
+                "word": "Walking on sunshine",
+                "type_id": "f667bad6-e5aa-458c-a4a1-f08638eef3cb",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Feeling extremely happy and carefree"
+              },
+              {
+                "id": "db951385-c58c-4804-baeb-9950807101a0",
+                "word": "Grinning from ear to ear",
+                "type_id": "f667bad6-e5aa-458c-a4a1-f08638eef3cb",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Smiling very broadly with happiness"
+              },
+              {
+                "id": "fd3fc650-c752-4194-b146-e79bebaff7c7",
+                "word": "Sparkling",
+                "type_id": "f667bad6-e5aa-458c-a4a1-f08638eef3cb",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Shining with happiness or excitement"
+              },
+              {
+                "id": "58fa266e-0ef2-4726-a055-86ec69308181",
+                "word": "Glowing",
+                "type_id": "f667bad6-e5aa-458c-a4a1-f08638eef3cb",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Radiating happiness or well-being"
+              },
+              {
+                "id": "8e0aa3a8-fbc7-4b92-a895-99471a65fd35",
+                "word": "On fire",
+                "type_id": "f667bad6-e5aa-458c-a4a1-f08638eef3cb",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Performing or feeling exceptionally well"
+              },
+              {
+                "id": "c78fddf8-bcf2-44eb-8164-32c2fef34fa4",
+                "word": "Bursting with joy",
+                "type_id": "f667bad6-e5aa-458c-a4a1-f08638eef3cb",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Filled with extreme happiness"
+              },
+              {
+                "id": "e74e58f5-05b9-4f76-bad1-59e6c2f2b11d",
+                "word": "Beaming like the sun",
+                "type_id": "f667bad6-e5aa-458c-a4a1-f08638eef3cb",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Radiating happiness very brightly"
+              },
+              {
+                "id": "c04a8fe2-93df-41cc-90ab-dcf03db2ee09",
+                "word": "Floating on air",
+                "type_id": "f667bad6-e5aa-458c-a4a1-f08638eef3cb",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Feeling extremely happy and lighthearted"
+              },
+              {
+                "id": "172f8334-aaff-4938-bab8-3fdcff125d08",
+                "word": "Lit from within",
+                "type_id": "f667bad6-e5aa-458c-a4a1-f08638eef3cb",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Glowing with inner happiness"
+              },
+              {
+                "id": "8cdcbd69-f878-4d99-99cd-0100b4953333",
+                "word": "Shining like a diamond",
+                "type_id": "f667bad6-e5aa-458c-a4a1-f08638eef3cb",
+                "created_at": "2025-01-22T17:08:30.236822+00:00",
+                "definition": "Radiating exceptional happiness and brilliance"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e3a47c3d-97cb-4cef-a813-12685d1fc291",
+        "name": "Confidence/Pride",
+        "emotion_types": [
+          {
+            "id": "1319b870-e04c-400e-9323-0819e8d10dac",
+            "subcategory_id": "e3a47c3d-97cb-4cef-a813-12685d1fc291",
+            "name": "Core",
+            "created_at": "2025-01-23T21:21:35.9214+00:00",
+            "emotion_words": [
+              {
+                "id": "a4461ea7-6a95-43eb-aa0b-46128ed5d36b",
+                "word": "Confident",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Feeling or showing certainty about something"
+              },
+              {
+                "id": "c0d07f6b-6c1a-4930-be21-852e84b85951",
+                "word": "Proud",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Feeling deep pleasure or satisfaction from achievements"
+              },
+              {
+                "id": "f084fa7e-84a3-4246-9b56-6050c386ef22",
+                "word": "Empowered",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Made stronger and more confident"
+              },
+              {
+                "id": "25968ced-5db4-40c7-bd32-0809b9cfde3b",
+                "word": "Unstoppable",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Feeling impossible to defeat or prevent"
+              },
+              {
+                "id": "516284b5-efb3-43a4-9ec8-006a91c104c6",
+                "word": "Bold",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Showing a willingness to take risks"
+              },
+              {
+                "id": "d8391c85-febb-49ae-a401-ed07d358d5d2",
+                "word": "Capable",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Having the ability, fitness, or quality necessary to do something"
+              },
+              {
+                "id": "09bb8700-fb8f-444b-90d7-4ed3ec77e294",
+                "word": "Strong",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Feeling physically or emotionally powerful"
+              },
+              {
+                "id": "37c23802-ff60-4137-95b5-b40dee185167",
+                "word": "Assured",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Confident and free from doubt"
+              },
+              {
+                "id": "4bc73351-3bcc-4ff4-a1c2-749b8169a7c8",
+                "word": "Determined",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling firmly resolved or set in purpose"
+              },
+              {
+                "id": "80aa96d6-36ff-40b0-ba56-02f1a0d92897",
+                "word": "Fearless",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Without fear; bold"
+              },
+              {
+                "id": "c45c1947-9adb-4eb6-972a-6c83fa0ba02a",
+                "word": "Invincible",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Too powerful to be defeated or overcome"
+              },
+              {
+                "id": "a23ae353-bb81-4b72-a9d9-f97a9974a5ad",
+                "word": "Mighty",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Possessing great and impressive power"
+              },
+              {
+                "id": "ff4fe0f4-a02b-46a8-ab51-8c0445841542",
+                "word": "Resolute",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Admirably purposeful and unwavering"
+              },
+              {
+                "id": "e3bfe0e9-e8d9-4b1d-b0c1-84aecd5b2074",
+                "word": "Tenacious",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Holding firmly to a purpose"
+              },
+              {
+                "id": "06647c9f-f04b-44cc-8c09-1d7986b496fc",
+                "word": "Unshakeable",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Not able to be disputed or questioned"
+              },
+              {
+                "id": "538c94d4-84fb-4230-9fbf-b5c6df15a419",
+                "word": "Validated",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Having received confirmation or approval"
+              },
+              {
+                "id": "74e5b946-d046-47b9-b2ec-559da737bda7",
+                "word": "Accomplished",
+                "type_id": "1319b870-e04c-400e-9323-0819e8d10dac",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Highly skilled or achieved"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4b361774-bef4-4833-be6c-ad1ea0ad013f",
+        "name": "Gratitude/Appreciation",
+        "emotion_types": [
+          {
+            "id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+            "subcategory_id": "4b361774-bef4-4833-be6c-ad1ea0ad013f",
+            "name": "Core",
+            "created_at": "2025-01-23T21:21:35.9214+00:00",
+            "emotion_words": [
+              {
+                "id": "4f0a068d-dd44-4d2f-a3d0-95690ef94726",
+                "word": "Grateful",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Feeling or showing appreciation"
+              },
+              {
+                "id": "bfd06726-29fc-4a93-ba3d-79fb8e9396fb",
+                "word": "Thankful",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Pleased and relieved"
+              },
+              {
+                "id": "1f8ac8c9-eecd-464e-b7ff-744eef6d9eac",
+                "word": "Appreciative",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Feeling or showing gratitude"
+              },
+              {
+                "id": "8f80e953-c6a7-40d3-8bb5-d60acb1deb04",
+                "word": "Blessed",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Feeling fortunate or favored"
+              },
+              {
+                "id": "ffc60749-ced7-4cd1-a43d-9655f183d3e7",
+                "word": "Moved",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Affected with tender or grateful emotion"
+              },
+              {
+                "id": "c51b7470-47e4-4ad8-a5cb-8d078bfc76de",
+                "word": "Indebted",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling grateful for help received"
+              },
+              {
+                "id": "202d4ddf-77e2-436c-92d4-b62d776da284",
+                "word": "Touched",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling appreciation or gratitude"
+              },
+              {
+                "id": "de004cb9-b579-46ea-b293-f2fce989ca0b",
+                "word": "Honored",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling respected or privileged"
+              },
+              {
+                "id": "aee10b34-ad81-41e2-aba1-4850dfd02ebc",
+                "word": "Fortunate",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling lucky or blessed"
+              },
+              {
+                "id": "5cdf380a-8cc4-434b-8875-ec2c9fc075d1",
+                "word": "Humbled",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling modest or grateful"
+              },
+              {
+                "id": "dd32b23f-26c0-441a-97f9-4589f8a5cdaa",
+                "word": "Valued",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling appreciated or worthwhile"
+              },
+              {
+                "id": "fb85a551-a94d-44c2-9cb3-cd7f881fc0d7",
+                "word": "Recognized",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling acknowledged or appreciated"
+              },
+              {
+                "id": "3a45f754-ff6a-4e02-8112-a3e600e47fc4",
+                "word": "Cherished",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling loved and appreciated"
+              },
+              {
+                "id": "a7850124-92ee-4b9a-9a36-1892fc8015a5",
+                "word": "Acknowledged",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling recognized or appreciated"
+              },
+              {
+                "id": "d5d51680-6336-4ff7-9c5b-080e96ecb6e8",
+                "word": "Supported",
+                "type_id": "48e01daf-940d-4c82-aae2-7d03742f8e3c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling helped or encouraged"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "28cd008a-5250-4002-ba84-088253cb0674",
+        "name": "Love/Connection",
+        "emotion_types": [
+          {
+            "id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+            "subcategory_id": "28cd008a-5250-4002-ba84-088253cb0674",
+            "name": "Core",
+            "created_at": "2025-01-24T13:29:43.09717+00:00",
+            "emotion_words": [
+              {
+                "id": "85f22037-451e-4df5-a9ef-5383fc09701c",
+                "word": "Fond",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Having an affection or liking for"
+              },
+              {
+                "id": "9e2aac58-9493-4257-ab9e-838e088e3ce0",
+                "word": "Close",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Having a strong emotional connection"
+              },
+              {
+                "id": "358cb72f-ada9-42bf-90d9-d7368e794aca",
+                "word": "Warm",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Showing enthusiasm, affection, or kindness"
+              },
+              {
+                "id": "a9bbc786-43bf-4b97-9cb1-ca89b3deb271",
+                "word": "Affectionate",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Showing caring and warm feelings"
+              },
+              {
+                "id": "0c040dce-107b-4e83-932d-a3d46e64adf1",
+                "word": "Caring",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling and exhibiting concern and empathy"
+              },
+              {
+                "id": "0fdc3417-2ad6-4bdb-9630-79f0ab83993c",
+                "word": "Tender",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Showing gentle affection"
+              },
+              {
+                "id": "892d05cc-7ae2-42a1-81b8-57bcc5d04b40",
+                "word": "Doting",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Extremely and uncritically fond of someone"
+              },
+              {
+                "id": "6c7bce47-98ab-463b-ba34-c7b27b52f61e",
+                "word": "Smitten",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Deeply affected by love"
+              },
+              {
+                "id": "2ad6d625-c89c-4f36-901b-6c3cda470098",
+                "word": "Cherished",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Held dear"
+              },
+              {
+                "id": "448dfea2-c0f7-4237-baf8-5ca998162e4c",
+                "word": "Swooning",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Overwhelmed by romantic feelings"
+              },
+              {
+                "id": "1cbb2819-0f12-49b0-92c2-8aac5c556d2e",
+                "word": "Devoted",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Very loving and loyal"
+              },
+              {
+                "id": "ce6033cb-eb3c-4350-a2ae-4635ef3db5f5",
+                "word": "Beloved",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Dearly loved"
+              },
+              {
+                "id": "0249189e-1a61-4d05-8d72-9fe00deb5d69",
+                "word": "Enamored",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Filled with love"
+              },
+              {
+                "id": "6ea9baed-312e-4616-b144-7d7de1af6509",
+                "word": "Ardent",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Characterized by intense feeling"
+              },
+              {
+                "id": "a10942d3-eb97-4389-bf08-6e97d2707313",
+                "word": "Treasured",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Regarded with love and affection"
+              },
+              {
+                "id": "f1522e04-973e-416a-a1b8-35f908628b59",
+                "word": "Passionate",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Having intense feelings or emotions"
+              },
+              {
+                "id": "dfdad0e3-c4ac-4a37-8e34-378374ea46cd",
+                "word": "Reverent",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling deep respect and love"
+              },
+              {
+                "id": "18dee803-a45a-472e-bf43-b9d801b2af5e",
+                "word": "Amorous",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Showing romantic love"
+              },
+              {
+                "id": "f3269a77-0f4f-4256-b6b3-42c98bb04d6f",
+                "word": "Infatuated",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Inspired with intense love or admiration"
+              },
+              {
+                "id": "dad95b2f-e293-4947-81e2-04050775c494",
+                "word": "Besotted",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Strongly infatuated"
+              },
+              {
+                "id": "6f1d28a0-0708-42cf-b46b-f2b1e5778ae0",
+                "word": "Adoring",
+                "type_id": "0cf92afa-44e6-4d45-9582-664d9cac38ee",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling deep love and respect"
+              }
+            ]
+          },
+          {
+            "id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+            "subcategory_id": "28cd008a-5250-4002-ba84-088253cb0674",
+            "name": "Compound/Phrasal",
+            "created_at": "2025-01-24T13:29:43.09717+00:00",
+            "emotion_words": [
+              {
+                "id": "4272012a-114d-4e93-ba03-16e81f99d822",
+                "word": "Heart-to-heart",
+                "type_id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "An intimate, sincere conversation"
+              },
+              {
+                "id": "ff81d2cd-6cf5-43d0-8877-58082ddc1b6c",
+                "word": "Head over heels",
+                "type_id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Completely in love"
+              },
+              {
+                "id": "19c0b667-b871-4d85-9f70-3b38c8a07291",
+                "word": "Ironclad loyalty",
+                "type_id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Unbreakable faithfulness"
+              },
+              {
+                "id": "636ab14e-99cb-49a1-9092-4deabb8c378b",
+                "word": "Steadfast",
+                "type_id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Firmly fixed in place; unwavering"
+              },
+              {
+                "id": "e5f0b654-5a67-438c-8671-17080b6af766",
+                "word": "Bound together",
+                "type_id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Connected by strong ties"
+              },
+              {
+                "id": "7c30995c-05cb-4af8-a08a-b8828c050849",
+                "word": "Ride or die",
+                "type_id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Loyal until the end"
+              },
+              {
+                "id": "9ced50bb-f20f-40b6-944a-a093103bf6e7",
+                "word": "Joined at the hip",
+                "type_id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Inseparable"
+              },
+              {
+                "id": "e18cff6a-65d4-4489-9195-b5823ae6fbb7",
+                "word": "One soul, two bodies",
+                "type_id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Deeply connected spiritually"
+              },
+              {
+                "id": "755667bb-7990-46a2-842d-5091620ff19f",
+                "word": "Attached at the heart",
+                "type_id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Emotionally inseparable"
+              },
+              {
+                "id": "e19dc6de-d63f-4359-9863-bbb2a1e210ee",
+                "word": "Soul meets soul",
+                "type_id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Deep spiritual connection"
+              },
+              {
+                "id": "80b177a3-5b86-4deb-95a9-ae7401bfc968",
+                "word": "Hearts intertwined",
+                "type_id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Deeply connected emotionally"
+              },
+              {
+                "id": "dbcdb6e3-04a9-4e44-81de-b28181328728",
+                "word": "Love at first sight",
+                "type_id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Immediate strong attraction"
+              },
+              {
+                "id": "ae6cb15f-6b96-4e44-8686-2f8030a6129d",
+                "word": "Match made in heaven",
+                "type_id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Perfect partnership"
+              },
+              {
+                "id": "fde4e1b6-9a71-405e-8432-d0b289e888f6",
+                "word": "Written in the stars",
+                "type_id": "444cd456-8f02-4768-b6d4-6ccdfc84849e",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Destined connection"
+              }
+            ]
+          },
+          {
+            "id": "a0257837-484b-4ed6-a1aa-330817d20e51",
+            "subcategory_id": "28cd008a-5250-4002-ba84-088253cb0674",
+            "name": "Metaphorical",
+            "created_at": "2025-01-24T13:29:43.09717+00:00",
+            "emotion_words": [
+              {
+                "id": "2050478c-2346-4fb4-b269-ff99516b19ff",
+                "word": "Two peas in a pod",
+                "type_id": "a0257837-484b-4ed6-a1aa-330817d20e51",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Very similar and close"
+              },
+              {
+                "id": "3587e2fd-c17c-46e6-ac27-5819bdf6a081",
+                "word": "Heart of gold",
+                "type_id": "a0257837-484b-4ed6-a1aa-330817d20e51",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Very kind and caring"
+              },
+              {
+                "id": "51a26030-903f-4ec3-a9c6-cd8e3bfd8fca",
+                "word": "Fire in the belly",
+                "type_id": "a0257837-484b-4ed6-a1aa-330817d20e51",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Strong passion or determination"
+              },
+              {
+                "id": "22039620-ec19-4443-b52b-835179e900ae",
+                "word": "Kindred spirits",
+                "type_id": "a0257837-484b-4ed6-a1aa-330817d20e51",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Similar in nature or character"
+              },
+              {
+                "id": "9918a4e5-2d80-4980-aa19-be8b92727151",
+                "word": "Magnetic souls",
+                "type_id": "a0257837-484b-4ed6-a1aa-330817d20e51",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Naturally drawn to each other"
+              },
+              {
+                "id": "27ed12a4-9280-42ee-8301-30eb872aca85",
+                "word": "Ice in the veins",
+                "type_id": "a0257837-484b-4ed6-a1aa-330817d20e51",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Calm under pressure"
+              },
+              {
+                "id": "d78da609-1764-47b1-a1cb-020205a31402",
+                "word": "Intertwined roots",
+                "type_id": "a0257837-484b-4ed6-a1aa-330817d20e51",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Deeply connected lives"
+              }
+            ]
+          },
+          {
+            "id": "0ca1b6c7-f8ab-411a-bc12-036015afd5ae",
+            "subcategory_id": "28cd008a-5250-4002-ba84-088253cb0674",
+            "name": "Cultural",
+            "created_at": "2025-01-24T13:29:43.09717+00:00",
+            "emotion_words": [
+              {
+                "id": "0d67176e-e506-4cc2-8819-eeb66229bf77",
+                "word": "Hygge",
+                "type_id": "0ca1b6c7-f8ab-411a-bc12-036015afd5ae",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Danish concept of cozy contentment"
+              },
+              {
+                "id": "f8a274b5-6c3a-4924-85bf-4ffbf2257056",
+                "word": "Ubuntu",
+                "type_id": "0ca1b6c7-f8ab-411a-bc12-036015afd5ae",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "African concept of communal bond"
+              },
+              {
+                "id": "949ecf63-4891-4605-b170-1fb30e46ec6d",
+                "word": "Kilig",
+                "type_id": "0ca1b6c7-f8ab-411a-bc12-036015afd5ae",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Filipino word for romantic thrill"
+              },
+              {
+                "id": "3e14df19-ee0c-475c-969b-973a627d2a79",
+                "word": "Ya'aburnee",
+                "type_id": "0ca1b6c7-f8ab-411a-bc12-036015afd5ae",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Arabic phrase expressing desire not to live without the beloved"
+              },
+              {
+                "id": "9007894c-9abc-44b1-aeb6-c3d45184b9b0",
+                "word": "Meraki",
+                "type_id": "0ca1b6c7-f8ab-411a-bc12-036015afd5ae",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Greek word for doing something with soul/love"
+              },
+              {
+                "id": "fccf6044-b72c-44a1-b9a9-784666c2e179",
+                "word": "Pyaar",
+                "type_id": "0ca1b6c7-f8ab-411a-bc12-036015afd5ae",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Hindi word for love"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f9f7475d-4248-44db-9005-462e87b3ba7c",
+        "name": "Energy/Enthusiasm",
+        "emotion_types": [
+          {
+            "id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+            "subcategory_id": "f9f7475d-4248-44db-9005-462e87b3ba7c",
+            "name": "Core",
+            "created_at": "2025-01-24T13:29:43.09717+00:00",
+            "emotion_words": [
+              {
+                "id": "652d53db-fef2-410e-881b-5e3c8d444c45",
+                "word": "Eager",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Wanting to do or have something very much"
+              },
+              {
+                "id": "6330ca82-35bf-4086-9677-c41f25e71673",
+                "word": "Peppy",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Full of energy and high spirits"
+              },
+              {
+                "id": "938a9940-17b8-4000-9937-f35a763989e1",
+                "word": "Sprightly",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Full of life and energy"
+              },
+              {
+                "id": "8e473087-bc6c-47c1-b977-d9e23b6a87e3",
+                "word": "Bouncy",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Lively and energetic"
+              },
+              {
+                "id": "e8bfdd70-9424-46c9-92d3-37aeddb4cd27",
+                "word": "Brisk",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Active and energetic"
+              },
+              {
+                "id": "c354a34d-13ad-4e3b-9859-d1199ca3791c",
+                "word": "Animated",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Full of life or excitement"
+              },
+              {
+                "id": "9949f2cd-7985-4d8d-aaaf-2a2f1111277f",
+                "word": "Zippy",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Lively and full of energy"
+              },
+              {
+                "id": "6dcd048a-bcc4-4e28-8916-594ccf0185e5",
+                "word": "Zesty",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Characterized by great enthusiasm and energy"
+              },
+              {
+                "id": "17c5fe69-73b1-418f-b776-f3f6bea4ee31",
+                "word": "Bubbly",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Cheerful and full of energy"
+              },
+              {
+                "id": "484cefed-e8d1-4590-ac56-d3cab27d19bb",
+                "word": "High-spirited",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Full of energy and enthusiasm"
+              },
+              {
+                "id": "fc6c78b6-1e6e-4caa-83b2-7ecda6b02005",
+                "word": "Lively",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Full of life and energy"
+              },
+              {
+                "id": "7475a58d-82b0-4918-a8aa-f88efdfc9ca9",
+                "word": "Energetic",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Showing great activity or vitality"
+              },
+              {
+                "id": "35130a17-a438-4b35-b4b0-51b5477d416e",
+                "word": "Vibrant",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Full of energy and life"
+              },
+              {
+                "id": "1aff747a-4de5-4865-977c-5e1dac110093",
+                "word": "Dynamic",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Characterized by constant change or activity"
+              },
+              {
+                "id": "93b903d7-c64e-4dd1-9697-80e459f0155a",
+                "word": "Exuberant",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Filled with lively energy"
+              },
+              {
+                "id": "302b5463-bb79-4091-9f76-47d48c3f9c3c",
+                "word": "Ebullient",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Cheerful and full of energy"
+              },
+              {
+                "id": "17936192-f617-433f-a560-78f10724ac0b",
+                "word": "Fervent",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Having or showing great warmth or intensity of spirit"
+              },
+              {
+                "id": "fa2c6282-6928-432c-bb9a-dcd7b4845fbb",
+                "word": "Electric",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Thrilling, exciting"
+              },
+              {
+                "id": "02a16d3e-7cfa-4033-921a-27e7e202f979",
+                "word": "Full-throttle",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Using or proceeding with full power or force"
+              },
+              {
+                "id": "d48ae97a-5aa8-41c1-9e45-9cc90323cc38",
+                "word": "Frenetic",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Fast and energetic in a wild way"
+              },
+              {
+                "id": "92debf8a-b95a-4a9c-bc7e-7aedd7e968c1",
+                "word": "Manic",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Characterized by great energy"
+              },
+              {
+                "id": "cbf0e717-6978-49a3-8a77-ae894bbe71c5",
+                "word": "Zealous",
+                "type_id": "e79d5523-669f-45a5-be6d-3ea4ff463690",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Having great energy or enthusiasm"
+              }
+            ]
+          },
+          {
+            "id": "f6b0334e-d5a6-432f-b078-d13e5798e841",
+            "subcategory_id": "f9f7475d-4248-44db-9005-462e87b3ba7c",
+            "name": "Slang",
+            "created_at": "2025-01-24T13:29:43.09717+00:00",
+            "emotion_words": [
+              {
+                "id": "cfd1f22c-1f50-47de-8257-cf540c643f0e",
+                "word": "Gucci",
+                "type_id": "f6b0334e-d5a6-432f-b078-d13e5798e841",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling good or doing well"
+              },
+              {
+                "id": "56579804-9fcf-4048-9487-4ff7bb75c004",
+                "word": "Turnt",
+                "type_id": "f6b0334e-d5a6-432f-b078-d13e5798e841",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Excited and energetic"
+              },
+              {
+                "id": "43965fb6-c2ce-4b2e-adcf-ce83e045a135",
+                "word": "Amped",
+                "type_id": "f6b0334e-d5a6-432f-b078-d13e5798e841",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Very excited or energized"
+              },
+              {
+                "id": "88b3ad80-1693-47dd-9610-f4188224d7d0",
+                "word": "GOAT mode",
+                "type_id": "f6b0334e-d5a6-432f-b078-d13e5798e841",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Performing at peak level"
+              },
+              {
+                "id": "757f5e5b-3c9a-4e52-94bb-fb9775b3f1c2",
+                "word": "Hyped",
+                "type_id": "f6b0334e-d5a6-432f-b078-d13e5798e841",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Very excited and energetic"
+              },
+              {
+                "id": "4f68eb38-12ae-4f14-acae-2d0502cf57ce",
+                "word": "Buzzin'",
+                "type_id": "f6b0334e-d5a6-432f-b078-d13e5798e841",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling excited and energetic"
+              },
+              {
+                "id": "33cbba50-b567-4a32-9e31-f5362c508ec1",
+                "word": "Psyched",
+                "type_id": "f6b0334e-d5a6-432f-b078-d13e5798e841",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Very excited"
+              },
+              {
+                "id": "4c2a9e7c-85d1-49eb-9155-1a62b1df063c",
+                "word": "Feeling it",
+                "type_id": "f6b0334e-d5a6-432f-b078-d13e5798e841",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Experiencing good energy and enthusiasm"
+              },
+              {
+                "id": "77e27b77-0c46-4177-ba15-1d6e5703bcea",
+                "word": "In the zone",
+                "type_id": "f6b0334e-d5a6-432f-b078-d13e5798e841",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Completely focused and energized"
+              },
+              {
+                "id": "94ed7a6c-b918-4b22-b242-fef06bce33d0",
+                "word": "Beast mode",
+                "type_id": "f6b0334e-d5a6-432f-b078-d13e5798e841",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Operating at maximum energy and efficiency"
+              },
+              {
+                "id": "69215505-559b-4d25-8710-ac04afa0edda",
+                "word": "Cracked",
+                "type_id": "f6b0334e-d5a6-432f-b078-d13e5798e841",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Performing exceptionally well"
+              },
+              {
+                "id": "e4b51cc2-9bba-4676-acb0-db253f9f9f6b",
+                "word": "Built different",
+                "type_id": "f6b0334e-d5a6-432f-b078-d13e5798e841",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Uniquely capable or energetic"
+              },
+              {
+                "id": "cf4578a3-9b61-4924-a97c-f47306613ccb",
+                "word": "Leveled up",
+                "type_id": "f6b0334e-d5a6-432f-b078-d13e5798e841",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Reached a new level of performance or energy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "68b5662e-84fd-4d4a-97a9-0bc28bde9b98",
+        "name": "Trust/Security",
+        "emotion_types": [
+          {
+            "id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+            "subcategory_id": "68b5662e-84fd-4d4a-97a9-0bc28bde9b98",
+            "name": "Core",
+            "created_at": "2025-01-24T13:29:43.09717+00:00",
+            "emotion_words": [
+              {
+                "id": "ee15f60f-7004-47d8-924f-8ddf002e98df",
+                "word": "Comforted",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling at ease and supported"
+              },
+              {
+                "id": "2a8c25b1-9b23-4647-b35f-28a3fa9cc15a",
+                "word": "Guarded",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Protected and safe"
+              },
+              {
+                "id": "733b293b-82e0-4a87-a02e-55c1b3466591",
+                "word": "Sheltered",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Protected from harm"
+              },
+              {
+                "id": "e422f4f7-b2e5-43a2-9fb6-bf9e8cae3a5d",
+                "word": "Secure",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Free from danger or threat"
+              },
+              {
+                "id": "737336dc-168c-4426-8e25-3bf0f4b9c132",
+                "word": "Safe",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Protected from harm or risk"
+              },
+              {
+                "id": "e64a1a15-c992-44f9-bd35-072a4ba99b3f",
+                "word": "Assured",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Confident and free from doubt"
+              },
+              {
+                "id": "525082cf-dd15-4436-b5be-3dad9aa3d5c6",
+                "word": "Reassured",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Having confidence restored"
+              },
+              {
+                "id": "58e436d1-2a7c-4a93-98e9-22f889b6bc53",
+                "word": "Stable",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Firmly established"
+              },
+              {
+                "id": "c85351f2-5d7c-466c-8c8c-88253be9f47e",
+                "word": "Steady",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Firmly fixed or supported"
+              },
+              {
+                "id": "5aca79d8-5e1b-4719-998b-358a5e8d8ec6",
+                "word": "Trusting",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Willing to rely on someone"
+              },
+              {
+                "id": "a68d0b00-ab44-4224-8599-335e0f2cadba",
+                "word": "Reliable",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Consistently good in quality or performance"
+              },
+              {
+                "id": "c2d5d02b-8b37-41a9-8757-579d6809ea4d",
+                "word": "Anchored",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Firmly fixed in place"
+              },
+              {
+                "id": "df9c9ddd-60d0-4bf5-81b1-609a73bc0b56",
+                "word": "Rooted",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Firmly established"
+              },
+              {
+                "id": "daa3f56a-8f7c-4986-afbf-9585dd2002ed",
+                "word": "Protected",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Kept safe from harm"
+              },
+              {
+                "id": "92d07302-4635-4f29-b178-9762a9e3e389",
+                "word": "Revered",
+                "type_id": "0acf0406-9155-4d49-be4f-e36349307fb9",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Deeply respected and trusted"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ca057b62-0e71-4798-bec3-f982994186cf",
+    "name": "NEGATIVE EMOTIONS",
+    "subcategories": [
+      {
+        "id": "b61facbb-0175-4546-8eb2-d89e8daf5643",
+        "name": "Sadness/Grief",
+        "emotion_types": [
+          {
+            "id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+            "subcategory_id": "b61facbb-0175-4546-8eb2-d89e8daf5643",
+            "name": "Core",
+            "created_at": "2025-01-23T21:15:53.530582+00:00",
+            "emotion_words": [
+              {
+                "id": "4be23cd3-caa8-407c-ae7a-dabb34f22a96",
+                "word": "Blue",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Feeling sad or depressed"
+              },
+              {
+                "id": "0c00384f-e74a-48bc-bfe6-9b35904e7062",
+                "word": "Low",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Feeling depressed or unhappy"
+              },
+              {
+                "id": "2f27cc97-e0cb-410c-b213-3e8299170666",
+                "word": "Downcast",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Feeling discouraged or sad"
+              },
+              {
+                "id": "39fa63e0-a4d5-4dc0-b896-198e5177434d",
+                "word": "Bummed",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Feeling disappointed or depressed"
+              },
+              {
+                "id": "22219ff9-6c57-4237-a5da-333c76aced26",
+                "word": "Gloomy",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Feeling dark or depressed"
+              },
+              {
+                "id": "074603a6-58b0-4409-9a5a-bf8276240464",
+                "word": "Morose",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Sullen and ill-tempered"
+              },
+              {
+                "id": "c6ef8efb-7bbd-4528-9539-e90c5f3cea7e",
+                "word": "Wistful",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Full of melancholy longing"
+              },
+              {
+                "id": "3363ab94-c9d0-4ce4-ac8a-069d094d46ea",
+                "word": "Hurt",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Feeling emotional pain"
+              },
+              {
+                "id": "1f2c2712-3ac0-4951-87e4-4075e42d560f",
+                "word": "Doleful",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Expressing sorrow; mournful"
+              },
+              {
+                "id": "6cee4d92-1afe-42b6-8c6e-7fb24bc5bba4",
+                "word": "Melancholic",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Feeling deep sadness or gloom"
+              },
+              {
+                "id": "da3cb22e-2e93-4a53-9ba7-c890d96c5de5",
+                "word": "Despondent",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "In low spirits from loss of hope or courage"
+              },
+              {
+                "id": "77981347-7cbe-421c-a16b-84a71a87043c",
+                "word": "Sorrowful",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Feeling or showing grief"
+              },
+              {
+                "id": "7bed7c6f-37f2-4706-bc26-addaf1aee166",
+                "word": "Heartbroken",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Suffering from overwhelming distress"
+              },
+              {
+                "id": "f5d11871-cadb-4594-8995-75a44969bda4",
+                "word": "Desolate",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Feeling abandoned and alone"
+              },
+              {
+                "id": "c2d0ca37-c198-4295-a303-114ed020f6ba",
+                "word": "Woeful",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Affected by or full of woe"
+              },
+              {
+                "id": "24385287-01bf-4854-9809-fd24999334da",
+                "word": "Dejected",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Sad and depressed; dispirited"
+              },
+              {
+                "id": "1f95f09a-80e4-4c7b-bf7b-76766e9a76f4",
+                "word": "Forlorn",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Pitifully sad and abandoned or lonely"
+              },
+              {
+                "id": "974c05eb-c448-485d-b636-7ac1f5243ae5",
+                "word": "Miserable",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Wretchedly unhappy or uncomfortable"
+              },
+              {
+                "id": "41e47bdd-cc4a-4e1b-9edb-5ea8c6ee6b93",
+                "word": "Hopeless",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Feeling or causing despair"
+              },
+              {
+                "id": "e8fd5514-d085-461c-93d3-68b569cf5a9e",
+                "word": "Defeated",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Demoralized and overcome by adversity"
+              },
+              {
+                "id": "28244301-33db-4795-8e17-d5fb226c212c",
+                "word": "Hollow",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling empty or without substance"
+              },
+              {
+                "id": "d89b7617-7cbb-4dec-b39e-9d376c301c5d",
+                "word": "Numb",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Deprived of feeling or responsiveness"
+              },
+              {
+                "id": "911ee8f6-8daa-4f05-b2f9-ee6eec1af946",
+                "word": "Fragile",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Easily broken or damaged emotionally"
+              },
+              {
+                "id": "43ccf620-98cc-4612-be84-820b9f591644",
+                "word": "Somber",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Dark or gloomy in mood"
+              },
+              {
+                "id": "88dbfd41-d418-42f2-81d6-473fff6cee13",
+                "word": "Bereft",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Deprived of or lacking something, especially a loved one"
+              },
+              {
+                "id": "4fa6870b-e042-4e39-b70e-ea3108f58823",
+                "word": "Disheartened",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Having lost determination or confidence"
+              },
+              {
+                "id": "a8277499-3c9b-44a6-b698-7793e0ca02c9",
+                "word": "Crestfallen",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Sad and disappointed"
+              },
+              {
+                "id": "ea598e3d-8b0f-485e-96b2-04257607ad01",
+                "word": "Desolate",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling abandoned and alone"
+              },
+              {
+                "id": "4a28ac4e-faab-43bd-b35e-ca5b8f07c787",
+                "word": "Inconsolable",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Unable to be comforted"
+              },
+              {
+                "id": "5c6b9654-8509-498a-8ba8-d1c2245fbd59",
+                "word": "Melancholy",
+                "type_id": "77b15ecb-4678-483e-93fe-c53214c4d3eb",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "A deep and long-lasting sadness"
+              }
+            ]
+          },
+          {
+            "id": "1fb4c7b8-430e-4cfe-bd60-ab308d20248f",
+            "subcategory_id": "b61facbb-0175-4546-8eb2-d89e8daf5643",
+            "name": "Slang",
+            "created_at": "2025-01-23T21:15:53.530582+00:00",
+            "emotion_words": [
+              {
+                "id": "90edbb75-f180-473c-95d4-e4aaafdccac7",
+                "word": "Down in the dumps",
+                "type_id": "1fb4c7b8-430e-4cfe-bd60-ab308d20248f",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Very sad or depressed"
+              },
+              {
+                "id": "027623b9-cb7d-4a0a-a876-6934957aa166",
+                "word": "Gutted",
+                "type_id": "1fb4c7b8-430e-4cfe-bd60-ab308d20248f",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Very disappointed or upset"
+              },
+              {
+                "id": "ddcd739b-dd1e-4e27-a3d4-72f59503146d",
+                "word": "Crushed",
+                "type_id": "1fb4c7b8-430e-4cfe-bd60-ab308d20248f",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Overwhelmed by sadness or grief"
+              },
+              {
+                "id": "362c20ce-55b5-499e-a285-3a186256b985",
+                "word": "Wrecked",
+                "type_id": "1fb4c7b8-430e-4cfe-bd60-ab308d20248f",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Emotionally devastated"
+              },
+              {
+                "id": "c24fdbd8-86c8-4312-adcc-4cd6fe8ffb93",
+                "word": "Broken",
+                "type_id": "1fb4c7b8-430e-4cfe-bd60-ab308d20248f",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Emotionally damaged or hurt"
+              },
+              {
+                "id": "a6c31f74-6d40-4628-acc7-6c901cc47324",
+                "word": "Meh",
+                "type_id": "1fb4c7b8-430e-4cfe-bd60-ab308d20248f",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Feeling unenthusiastic or down"
+              },
+              {
+                "id": "ca54234c-b87d-487e-ade8-af2e40afc511",
+                "word": "Not it",
+                "type_id": "1fb4c7b8-430e-4cfe-bd60-ab308d20248f",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Feeling disappointed or sad"
+              },
+              {
+                "id": "dde364d4-4e12-4af8-9e99-e514fff64e58",
+                "word": "Big sad",
+                "type_id": "1fb4c7b8-430e-4cfe-bd60-ab308d20248f",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Experiencing significant sadness"
+              },
+              {
+                "id": "4f86c89c-4eb4-480d-987e-76c910871ef7",
+                "word": "Dead inside",
+                "type_id": "1fb4c7b8-430e-4cfe-bd60-ab308d20248f",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Feeling emotionally numb"
+              },
+              {
+                "id": "32c9ed09-33f2-48c0-b5b8-f2c8bed813e9",
+                "word": "Can't even",
+                "type_id": "1fb4c7b8-430e-4cfe-bd60-ab308d20248f",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Unable to handle emotional situation"
+              },
+              {
+                "id": "31973dba-d7b0-47f2-af56-1dd76d5a110b",
+                "word": "Hitting different",
+                "type_id": "1fb4c7b8-430e-4cfe-bd60-ab308d20248f",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Affecting one particularly strongly"
+              }
+            ]
+          },
+          {
+            "id": "08b1076b-768f-4105-801a-4e29278be16f",
+            "subcategory_id": "b61facbb-0175-4546-8eb2-d89e8daf5643",
+            "name": "Metaphorical",
+            "created_at": "2025-01-23T21:15:53.530582+00:00",
+            "emotion_words": [
+              {
+                "id": "aca5b26c-1069-4e92-bb95-657835e916ac",
+                "word": "Heart of stone",
+                "type_id": "08b1076b-768f-4105-801a-4e29278be16f",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Unable to feel or express emotions"
+              },
+              {
+                "id": "06f7b0ac-e1df-4d98-bb29-7ddfd8b8d6d8",
+                "word": "Heavy heart",
+                "type_id": "08b1076b-768f-4105-801a-4e29278be16f",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Feeling sad or sorrowful"
+              },
+              {
+                "id": "00d8e193-79f3-4a29-9a82-8105d9df5586",
+                "word": "Dark cloud",
+                "type_id": "08b1076b-768f-4105-801a-4e29278be16f",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "A state of sadness or gloom"
+              },
+              {
+                "id": "95882282-1847-472a-b0e9-92046218de83",
+                "word": "Storm inside",
+                "type_id": "08b1076b-768f-4105-801a-4e29278be16f",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Turbulent emotions, especially sadness"
+              },
+              {
+                "id": "9b9ac11e-2137-4223-b2c8-f46e7ea9e47c",
+                "word": "Empty inside",
+                "type_id": "08b1076b-768f-4105-801a-4e29278be16f",
+                "created_at": "2025-01-23T21:15:53.530582+00:00",
+                "definition": "Feeling hollow or without emotion"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e1c694eb-166b-46b8-9caa-97475965030e",
+        "name": "Anger/Frustration",
+        "emotion_types": [
+          {
+            "id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+            "subcategory_id": "e1c694eb-166b-46b8-9caa-97475965030e",
+            "name": "Core",
+            "created_at": "2025-01-23T21:17:24.992333+00:00",
+            "emotion_words": [
+              {
+                "id": "cf9fe0b7-311b-4245-a3df-4af0f9568c85",
+                "word": "Angry",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Feeling or showing strong annoyance or hostility"
+              },
+              {
+                "id": "eff0ddf1-ca90-413b-b3a6-08fbcee42e5c",
+                "word": "Frustrated",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Feeling or expressing distress and annoyance"
+              },
+              {
+                "id": "e4e57d11-dedc-439a-ba53-a0f303c29364",
+                "word": "Irritated",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Showing or feeling slight anger"
+              },
+              {
+                "id": "fbb414fe-4390-4fd3-bfcc-7e824ebec0e9",
+                "word": "Furious",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Extremely angry"
+              },
+              {
+                "id": "09d846f5-63e6-44a4-89e7-eafce7a3c6f1",
+                "word": "Enraged",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Very angry; furious"
+              },
+              {
+                "id": "13baa261-a823-4a40-8267-a634261882ce",
+                "word": "Annoyed",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Slightly angry; irritated"
+              },
+              {
+                "id": "f571f51c-1d60-456d-b190-a182bfc7a700",
+                "word": "Irate",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Feeling or characterized by great anger"
+              },
+              {
+                "id": "95df4376-1efb-457d-9491-2265f2bba08d",
+                "word": "Outraged",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Extremely angry and shocked"
+              },
+              {
+                "id": "f82a165b-04e1-4177-86fc-f67ebb6fd423",
+                "word": "Indignant",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Feeling or showing anger about something unjust"
+              },
+              {
+                "id": "074459f4-5433-4c15-9523-c957f6ba592d",
+                "word": "Livid",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Furiously angry"
+              },
+              {
+                "id": "816236d4-d621-4c7b-ae09-f12f3dfd028b",
+                "word": "Seething",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Filled with intense but unexpressed anger"
+              },
+              {
+                "id": "cd1958d0-b197-497a-bc2b-794dd3bf5add",
+                "word": "Bitter",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Angry and resentful"
+              },
+              {
+                "id": "e5063ff1-6e5d-4c7c-ba31-b304b315de5a",
+                "word": "Hostile",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Unfriendly and antagonistic"
+              },
+              {
+                "id": "17d4dd27-ba71-401a-a971-7d58e6170441",
+                "word": "Resentful",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Feeling or expressing bitterness or indignation"
+              },
+              {
+                "id": "e259ed1e-47f3-4a99-8cee-92c1e75b5423",
+                "word": "Incensed",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Very angry; enraged"
+              },
+              {
+                "id": "bec8d121-dfa2-4b4c-8374-9d69988bdb4c",
+                "word": "Vexed",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Annoyed, frustrated, or worried"
+              },
+              {
+                "id": "78dc6d02-a271-4688-936d-d29a741efa13",
+                "word": "Indignant",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling or showing anger because of something unjust"
+              },
+              {
+                "id": "411e5349-3b9f-48b4-b93a-baab93236a5c",
+                "word": "Agitated",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Troubled or excited state"
+              },
+              {
+                "id": "d83bf3d9-15ab-41da-90a3-39a4d1f53fdd",
+                "word": "Provoked",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Annoyed or angered by something"
+              },
+              {
+                "id": "e6e02d7f-2895-48d6-9bcd-b770b706d9a6",
+                "word": "Irritable",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Easily annoyed or made angry"
+              },
+              {
+                "id": "5924a014-d622-401c-8865-20ae6af92fab",
+                "word": "Fuming",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Extremely angry or irritated"
+              },
+              {
+                "id": "b6d8d10f-fa31-4772-8dac-77a97191ad5f",
+                "word": "Riled",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Made angry or irritated"
+              },
+              {
+                "id": "ff753a17-5b36-46cc-95bb-e05bdc73ab03",
+                "word": "Cross",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Annoyed or slightly angry"
+              },
+              {
+                "id": "a71c3f19-7bcc-4689-ab5f-33c625603289",
+                "word": "Disgruntled",
+                "type_id": "0973a5cc-e075-484b-9696-58e7367f82c4",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Discontented and displeased"
+              }
+            ]
+          },
+          {
+            "id": "55decced-4b6c-45bc-a749-bf8b4e9597ad",
+            "subcategory_id": "e1c694eb-166b-46b8-9caa-97475965030e",
+            "name": "Slang",
+            "created_at": "2025-01-23T21:17:24.992333+00:00",
+            "emotion_words": [
+              {
+                "id": "69d72eef-d071-4825-bef5-bf2fcbd66a44",
+                "word": "Ticked off",
+                "type_id": "55decced-4b6c-45bc-a749-bf8b4e9597ad",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Angry or irritated"
+              },
+              {
+                "id": "3f5681c8-15d6-4192-83b3-03b5b6fce53b",
+                "word": "Fed up",
+                "type_id": "55decced-4b6c-45bc-a749-bf8b4e9597ad",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Very annoyed or tired of something"
+              },
+              {
+                "id": "0f1aded9-cd2a-4f9b-98d8-7e272eca438a",
+                "word": "Steamed",
+                "type_id": "55decced-4b6c-45bc-a749-bf8b4e9597ad",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Very angry"
+              },
+              {
+                "id": "9ecd4a55-f7d5-4b37-8d76-615a41543e61",
+                "word": "Losing it",
+                "type_id": "55decced-4b6c-45bc-a749-bf8b4e9597ad",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Becoming very angry or emotional"
+              },
+              {
+                "id": "517c59f0-77ac-4aec-b643-92a0a5ba465e",
+                "word": "Heated",
+                "type_id": "55decced-4b6c-45bc-a749-bf8b4e9597ad",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Angry or agitated"
+              },
+              {
+                "id": "9edefb62-6cf8-48d2-8f96-481368b8016d",
+                "word": "Salty",
+                "type_id": "55decced-4b6c-45bc-a749-bf8b4e9597ad",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Slightly annoyed or bitter"
+              },
+              {
+                "id": "e5c0b4f6-e70c-4af0-b2d2-4a8589ae447b",
+                "word": "Pressed",
+                "type_id": "55decced-4b6c-45bc-a749-bf8b4e9597ad",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Agitated or annoyed"
+              },
+              {
+                "id": "12181b4c-e071-4347-a894-499c0f69c7ef",
+                "word": "Throwing shade",
+                "type_id": "55decced-4b6c-45bc-a749-bf8b4e9597ad",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Expressing disapproval or annoyance"
+              },
+              {
+                "id": "05c8ae3e-56be-4ac2-a841-a19b9f4d4c91",
+                "word": "Triggered",
+                "type_id": "55decced-4b6c-45bc-a749-bf8b4e9597ad",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Becoming suddenly angry or upset"
+              },
+              {
+                "id": "0083dead-652d-4b35-93a1-05f260b81965",
+                "word": "Tilted",
+                "type_id": "55decced-4b6c-45bc-a749-bf8b4e9597ad",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Very frustrated or angry"
+              },
+              {
+                "id": "49f632b9-0e62-4267-a32e-f80665468008",
+                "word": "Malding",
+                "type_id": "55decced-4b6c-45bc-a749-bf8b4e9597ad",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Extremely angry and frustrated"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3809aafa-7b45-4bdc-ab27-874a8cdcedb8",
+        "name": "Fear/Anxiety",
+        "emotion_types": [
+          {
+            "id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+            "subcategory_id": "3809aafa-7b45-4bdc-ab27-874a8cdcedb8",
+            "name": "Core",
+            "created_at": "2025-01-23T21:17:24.992333+00:00",
+            "emotion_words": [
+              {
+                "id": "ecfb573a-33d3-4ed9-9156-837f0fa410b7",
+                "word": "Afraid",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Feeling fear or anxiety"
+              },
+              {
+                "id": "3842008c-0065-4274-a85e-a558d8bb1d29",
+                "word": "Anxious",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Experiencing worry or unease"
+              },
+              {
+                "id": "fa4e873d-81e1-47ed-b25a-1946d56ede7d",
+                "word": "Nervous",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Easily agitated or alarmed"
+              },
+              {
+                "id": "750fc3db-c711-4c14-b4fc-2cd6efe04b24",
+                "word": "Scared",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Feeling frightened or fearful"
+              },
+              {
+                "id": "d6d38c4f-6ba7-4db1-ab49-5e2f1685bb7e",
+                "word": "Terrified",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Extremely frightened"
+              },
+              {
+                "id": "d9b99d03-390e-4a1e-8e41-81f2a5ae4d97",
+                "word": "Panicked",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Feeling sudden uncontrollable fear"
+              },
+              {
+                "id": "cf5cd82b-1bd6-44e9-b017-13fcec268dc8",
+                "word": "Uneasy",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Feeling anxiety or apprehension"
+              },
+              {
+                "id": "3b041739-d2aa-46bc-9637-86eae1522cab",
+                "word": "Worried",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Feeling troubled about actual or potential problems"
+              },
+              {
+                "id": "5fe7c99a-0252-4e17-a82d-d45ef37d21bd",
+                "word": "Apprehensive",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Anxious or fearful about the future"
+              },
+              {
+                "id": "d848ce99-8c52-4b44-992b-726dca3af067",
+                "word": "Overwhelmed",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Feeling overcome by intense emotion"
+              },
+              {
+                "id": "bf13945e-1759-48b2-b002-8994aafd89bf",
+                "word": "Vulnerable",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Exposed to emotional harm"
+              },
+              {
+                "id": "caff083a-0be4-41db-91ea-0068823e745e",
+                "word": "Insecure",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Not confident or assured; uncertain and anxious"
+              },
+              {
+                "id": "57995829-bebd-419c-bee0-c98265e4bc0a",
+                "word": "Restless",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Unable to remain still or quiet due to anxiety"
+              },
+              {
+                "id": "adb4373e-0311-4e5f-99b4-90b0951690ec",
+                "word": "Unnerved",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Deprived of courage or confidence"
+              },
+              {
+                "id": "90a01963-1fad-48d4-9a6a-a82f107874ce",
+                "word": "Rattled",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling nervous, worried, or agitated"
+              },
+              {
+                "id": "dbaa0951-e8e4-4516-a50d-d44a5507d1e7",
+                "word": "Tense",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Unable to relax because of nervousness or anxiety"
+              },
+              {
+                "id": "4486b144-919f-486d-a29a-f979ef31111d",
+                "word": "Jittery",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Nervous or unable to relax"
+              },
+              {
+                "id": "03317964-4bcc-4964-9e90-3832067c11f8",
+                "word": "Skittish",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Easily frightened or nervous"
+              },
+              {
+                "id": "01b3ce92-e6e4-4753-8133-b218a0f63f13",
+                "word": "Flustered",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Agitated or confused"
+              },
+              {
+                "id": "26aeadfd-64a9-401b-8681-39d383ab156a",
+                "word": "Timid",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Showing a lack of courage or confidence"
+              },
+              {
+                "id": "54695097-ccbb-4a60-9d85-ee56ba3eb737",
+                "word": "Hesitant",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Tentative or unsure"
+              },
+              {
+                "id": "23929721-16fd-44d5-8574-170edb5dea67",
+                "word": "Queasy",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Feeling sick or nervous"
+              },
+              {
+                "id": "596d4fbe-9a28-4b09-9925-cf40179cdad3",
+                "word": "Frazzled",
+                "type_id": "373ef1bb-dbf2-4303-a7e7-c591828a198c",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Exhausted or stressed out"
+              }
+            ]
+          },
+          {
+            "id": "0c6160f2-453e-4e0b-95bd-bff205191b25",
+            "subcategory_id": "3809aafa-7b45-4bdc-ab27-874a8cdcedb8",
+            "name": "Metaphorical",
+            "created_at": "2025-01-23T21:21:35.051486+00:00",
+            "emotion_words": [
+              {
+                "id": "0f646b82-ba5e-49da-9a9d-86673b9ead73",
+                "word": "Butterflies in stomach",
+                "type_id": "0c6160f2-453e-4e0b-95bd-bff205191b25",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Nervous excitement"
+              },
+              {
+                "id": "8fdd4b78-e4b6-4be0-95ea-ef02eb3719ee",
+                "word": "Heart racing",
+                "type_id": "0c6160f2-453e-4e0b-95bd-bff205191b25",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Experiencing intense anxiety or fear"
+              },
+              {
+                "id": "3c2b15bd-841b-496c-80ba-2ddee5a2ac86",
+                "word": "Walking on eggshells",
+                "type_id": "0c6160f2-453e-4e0b-95bd-bff205191b25",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Being cautious to avoid upsetting someone"
+              },
+              {
+                "id": "41c76569-0403-4b27-88f4-a75a7d7941d0",
+                "word": "Frozen with fear",
+                "type_id": "0c6160f2-453e-4e0b-95bd-bff205191b25",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Unable to move or act due to extreme fear"
+              }
+            ]
+          },
+          {
+            "id": "c92642df-ad2e-4b01-82ce-755351d778d7",
+            "subcategory_id": "3809aafa-7b45-4bdc-ab27-874a8cdcedb8",
+            "name": "Metaphorical",
+            "created_at": "2025-01-27T20:59:27.91875+00:00",
+            "emotion_words": [
+              {
+                "id": "51f878ad-569c-456d-806f-49c0456e6999",
+                "word": "Walking on thin ice",
+                "type_id": "c92642df-ad2e-4b01-82ce-755351d778d7",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "In a precarious situation"
+              },
+              {
+                "id": "a5fbd0f8-dd8d-412d-9a2a-c687790a2dd5",
+                "word": "Heart in throat",
+                "type_id": "c92642df-ad2e-4b01-82ce-755351d778d7",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Feeling intense anxiety"
+              },
+              {
+                "id": "ef5506d7-a6ef-4c68-9d12-3ee528a91afc",
+                "word": "World closing in",
+                "type_id": "c92642df-ad2e-4b01-82ce-755351d778d7",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Feeling overwhelmed by fear"
+              },
+              {
+                "id": "0fc65d44-6bec-494e-a8f0-78d3201eb36c",
+                "word": "Shadows closing in",
+                "type_id": "c92642df-ad2e-4b01-82ce-755351d778d7",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Growing sense of fear or dread"
+              },
+              {
+                "id": "df2f0839-b92e-4dc9-b342-daa69c48e2fb",
+                "word": "Walls have eyes",
+                "type_id": "c92642df-ad2e-4b01-82ce-755351d778d7",
+                "created_at": "2025-01-27T20:59:27.91875+00:00",
+                "definition": "Feeling watched or paranoid"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "53cbf7fe-bc91-4c23-a9ee-fa4239a2a1c3",
+        "name": "Disgust/Aversion",
+        "emotion_types": [
+          {
+            "id": "b7ab8c65-dc28-4976-b5a1-7aa45520e061",
+            "subcategory_id": "53cbf7fe-bc91-4c23-a9ee-fa4239a2a1c3",
+            "name": "Core",
+            "created_at": "2025-01-23T21:17:24.992333+00:00",
+            "emotion_words": [
+              {
+                "id": "d4d4d0d6-98ab-4883-9521-42e84f85bd73",
+                "word": "Disgusted",
+                "type_id": "b7ab8c65-dc28-4976-b5a1-7aa45520e061",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Feeling revulsion or strong disapproval"
+              },
+              {
+                "id": "f5ed2e78-5b43-4bf2-bde5-3a219e974053",
+                "word": "Repulsed",
+                "type_id": "b7ab8c65-dc28-4976-b5a1-7aa45520e061",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Feeling intense aversion or distaste"
+              },
+              {
+                "id": "fbd10c95-00b1-4290-838b-e15e8844985f",
+                "word": "Revolted",
+                "type_id": "b7ab8c65-dc28-4976-b5a1-7aa45520e061",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Experiencing intense disgust"
+              },
+              {
+                "id": "1c573fc5-6c1c-4d75-b3c5-c02e788de0d0",
+                "word": "Nauseated",
+                "type_id": "b7ab8c65-dc28-4976-b5a1-7aa45520e061",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Feeling physical or emotional revulsion"
+              },
+              {
+                "id": "2cd47d51-d407-43cb-9947-fc81bb67ef70",
+                "word": "Appalled",
+                "type_id": "b7ab8c65-dc28-4976-b5a1-7aa45520e061",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Feeling horror or disgust"
+              },
+              {
+                "id": "21924708-7c9d-4586-8b7e-acd3f83b6282",
+                "word": "Sickened",
+                "type_id": "b7ab8c65-dc28-4976-b5a1-7aa45520e061",
+                "created_at": "2025-01-23T21:17:24.992333+00:00",
+                "definition": "Feeling disgust or revulsion"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "891c794a-d9da-47cb-bf34-b823aa18a777",
+        "name": "Exhaustion/Fatigue",
+        "emotion_types": [
+          {
+            "id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+            "subcategory_id": "891c794a-d9da-47cb-bf34-b823aa18a777",
+            "name": "Core",
+            "created_at": "2025-01-23T21:21:35.9214+00:00",
+            "emotion_words": [
+              {
+                "id": "23f3751a-95da-4582-a111-6442d4a81966",
+                "word": "Exhausted",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Drained of energy or effectiveness"
+              },
+              {
+                "id": "697e28d0-df87-4b92-b365-150128782953",
+                "word": "Tired",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "In need of sleep or rest"
+              },
+              {
+                "id": "d4c45b08-b1e0-49ed-b02a-426625263371",
+                "word": "Drained",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Emptied of energy or resources"
+              },
+              {
+                "id": "ffab643f-13fe-4b5f-8e97-d84e7907d0a1",
+                "word": "Weary",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Feeling or showing tiredness"
+              },
+              {
+                "id": "91bc5678-fb43-4a99-8d3f-d5e004ebb0fe",
+                "word": "Spent",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Having used up all one's energy"
+              },
+              {
+                "id": "c08485c3-5510-41fe-9b2e-8dfa15dfad41",
+                "word": "Fatigued",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Extremely tired"
+              },
+              {
+                "id": "e7dad47a-b06a-47dd-9d08-db6c4eb2c662",
+                "word": "Burned out",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Exhausted physically or emotionally"
+              },
+              {
+                "id": "86b9f54c-4428-4cf1-bf0d-76cee8101764",
+                "word": "Depleted",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Having used up energy or resources"
+              },
+              {
+                "id": "e994aba1-dbef-413f-8f69-12dbc77c8f3d",
+                "word": "Sluggish",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Lacking energy or alertness"
+              },
+              {
+                "id": "5d9f040d-87c6-4d20-8b83-cec21540e8a5",
+                "word": "Lethargic",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Lacking energy or enthusiasm"
+              },
+              {
+                "id": "693b4410-72a2-4c3b-a52a-b1ba70799eaa",
+                "word": "Drowsy",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Sleepy and lethargic"
+              },
+              {
+                "id": "4102ad1f-6a59-49b8-af42-7a0583cd6ad8",
+                "word": "Beat",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Extremely tired or exhausted"
+              },
+              {
+                "id": "8384def6-c7db-4e80-b105-2797aa3b01ec",
+                "word": "Worn out",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Extremely tired or exhausted"
+              },
+              {
+                "id": "1eb7519a-b645-4a94-87b6-41ebe6e29f09",
+                "word": "Rundown",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Tired and in poor health"
+              },
+              {
+                "id": "194ccc1d-231e-4e29-85c3-f9a1d5063e45",
+                "word": "Overtired",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Exhausted beyond normal tiredness"
+              },
+              {
+                "id": "593f6767-5d4a-496a-b0c7-88b304cef5ba",
+                "word": "Wiped",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Extremely tired"
+              },
+              {
+                "id": "3aa13d3c-c655-45d9-a7b4-144819772538",
+                "word": "Zonked",
+                "type_id": "e94023c5-f480-4e91-b9d8-89d3037e116e",
+                "created_at": "2025-01-23T21:26:01.522366+00:00",
+                "definition": "Extremely tired or exhausted"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "64d686cd-bad1-4bba-8ec3-698a0085d5c0",
+        "name": "Disgust/Contempt",
+        "emotion_types": [
+          {
+            "id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+            "subcategory_id": "64d686cd-bad1-4bba-8ec3-698a0085d5c0",
+            "name": "Core",
+            "created_at": "2025-01-24T13:29:43.09717+00:00",
+            "emotion_words": [
+              {
+                "id": "b59ce9e5-8489-470d-84b9-02af73b64047",
+                "word": "Icky",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling disgust or distaste"
+              },
+              {
+                "id": "625994cd-76f6-415b-8642-2298ad64f4a8",
+                "word": "Meh",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Unimpressed or unenthusiastic"
+              },
+              {
+                "id": "471db868-ff3a-418d-ab84-414e9c8af4de",
+                "word": "Off-putting",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Unpleasant or disconcerting"
+              },
+              {
+                "id": "10878c37-57f0-4d0d-9092-f4dee62670ff",
+                "word": "Off",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Not quite right or normal"
+              },
+              {
+                "id": "dd86a808-abd9-4c75-978c-8e670a9d99e1",
+                "word": "Grossed out",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Disgusted"
+              },
+              {
+                "id": "2e7b9de7-758a-47c3-a3fe-e4c67cc6c99e",
+                "word": "Averse",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Having a strong dislike"
+              },
+              {
+                "id": "d0b62473-1da9-422d-8151-49999f8ea986",
+                "word": "Revolted",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling intense disgust"
+              },
+              {
+                "id": "57b1e238-eb62-48f8-88af-61baf8d9e8d3",
+                "word": "Nauseated",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling sick with disgust"
+              },
+              {
+                "id": "45487f84-ef74-4246-a7fe-d3c71a143c04",
+                "word": "Nauseous",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Affected with nausea"
+              },
+              {
+                "id": "05bb36c9-21d0-4816-b9de-bc2ada92022b",
+                "word": "Queasy",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling sick or nauseated"
+              },
+              {
+                "id": "a990025e-ed46-41c0-b2e2-3ea2078c3ca4",
+                "word": "Repulsed",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling strong dislike or aversion"
+              },
+              {
+                "id": "52f927bf-c567-4e3a-a9e3-1e02ed2ae6a0",
+                "word": "Loathing",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling intense dislike or disgust"
+              },
+              {
+                "id": "9c3a7d6a-c8be-4026-820c-0d1f0ad5831d",
+                "word": "Detestable",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Deserving intense dislike"
+              },
+              {
+                "id": "bf1e2d41-dbca-4b51-b165-e6407a7deb66",
+                "word": "Abhorrent",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Inspiring disgust and loathing"
+              },
+              {
+                "id": "6082bb43-a421-411d-99b8-3ff1ac78733a",
+                "word": "Vile",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Morally bad; wicked"
+              },
+              {
+                "id": "f115ab1f-b5c6-4983-9874-5f14c089fb8a",
+                "word": "Foul",
+                "type_id": "0934fa6f-0464-4791-8cf7-976e42ef15f2",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Offensive to the senses"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1a67359e-dc05-4e3d-96a5-78c7fe601332",
+        "name": "Guilt/Shame",
+        "emotion_types": [
+          {
+            "id": "77385397-4a6e-452c-8976-dee9bbd419fc",
+            "subcategory_id": "1a67359e-dc05-4e3d-96a5-78c7fe601332",
+            "name": "Core",
+            "created_at": "2025-01-24T13:29:43.09717+00:00",
+            "emotion_words": [
+              {
+                "id": "1723dd86-6815-4394-a8b9-26be5158c179",
+                "word": "Sheepish",
+                "type_id": "77385397-4a6e-452c-8976-dee9bbd419fc",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Embarrassed due to shame or guilt"
+              },
+              {
+                "id": "8179cdd5-40f5-46d2-8639-314bd4bb773e",
+                "word": "Guilty",
+                "type_id": "77385397-4a6e-452c-8976-dee9bbd419fc",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling responsible for wrongdoing"
+              },
+              {
+                "id": "71fdd24a-f562-4af4-ab5d-62901ded9b20",
+                "word": "Embarrassed",
+                "type_id": "77385397-4a6e-452c-8976-dee9bbd419fc",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling awkward or ashamed"
+              },
+              {
+                "id": "3bb7b1db-6131-4629-9f74-29e5c8e32f43",
+                "word": "Abashed",
+                "type_id": "77385397-4a6e-452c-8976-dee9bbd419fc",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Embarrassed or ashamed"
+              },
+              {
+                "id": "82473997-d674-48f2-8abb-b7c9318dcbf4",
+                "word": "Chagrined",
+                "type_id": "77385397-4a6e-452c-8976-dee9bbd419fc",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling distressed by failure"
+              },
+              {
+                "id": "dba4be62-1534-4ada-91ae-4b1885af9deb",
+                "word": "Ashamed",
+                "type_id": "77385397-4a6e-452c-8976-dee9bbd419fc",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling shame or guilt"
+              },
+              {
+                "id": "b23045c4-6cfa-4441-9177-90c953ce55a5",
+                "word": "Regretful",
+                "type_id": "77385397-4a6e-452c-8976-dee9bbd419fc",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Full of regret"
+              },
+              {
+                "id": "91fcd3a7-85df-4dbe-bb66-dc78aeb1e6fa",
+                "word": "Remorseful",
+                "type_id": "77385397-4a6e-452c-8976-dee9bbd419fc",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Filled with remorse"
+              },
+              {
+                "id": "b0b3602b-926d-42c5-a38e-48b025928473",
+                "word": "Contrite",
+                "type_id": "77385397-4a6e-452c-8976-dee9bbd419fc",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling genuine remorse"
+              },
+              {
+                "id": "797b0272-bb3d-484a-825f-a52f6dfd2f92",
+                "word": "Humiliated",
+                "type_id": "77385397-4a6e-452c-8976-dee9bbd419fc",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Made to feel ashamed or foolish"
+              },
+              {
+                "id": "f69548ed-f823-430e-9e6c-9a5b6f11ba13",
+                "word": "Mortified",
+                "type_id": "77385397-4a6e-452c-8976-dee9bbd419fc",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Feeling very ashamed or embarrassed"
+              },
+              {
+                "id": "c9a9e89d-0b4e-4a5c-bef6-38796a22a628",
+                "word": "Degraded",
+                "type_id": "77385397-4a6e-452c-8976-dee9bbd419fc",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Reduced to a lower rank"
+              },
+              {
+                "id": "20395a1d-e272-4d25-9870-c7e0bb966db1",
+                "word": "Disgraced",
+                "type_id": "77385397-4a6e-452c-8976-dee9bbd419fc",
+                "created_at": "2025-01-24T13:29:43.09717+00:00",
+                "definition": "Having lost reputation or respect"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f82a7eba-f12c-4817-8fa3-55df0f8576af",
+    "name": "NEUTRAL/MIXED EMOTIONS",
+    "subcategories": [
+      {
+        "id": "10bbeed7-89b2-4f5a-b165-01af6d4d6704",
+        "name": "Curiosity/Interest",
+        "emotion_types": [
+          {
+            "id": "fc703ae7-9400-4a6c-9372-0191ba617772",
+            "subcategory_id": "10bbeed7-89b2-4f5a-b165-01af6d4d6704",
+            "name": "Core",
+            "created_at": "2025-01-23T21:15:54.287964+00:00",
+            "emotion_words": [
+              {
+                "id": "25d6ac3a-d181-4e2c-9e9f-ea044d4d50e0",
+                "word": "Piqued",
+                "type_id": "fc703ae7-9400-4a6c-9372-0191ba617772",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Having one's interest or curiosity aroused"
+              },
+              {
+                "id": "cd519af4-448a-4d45-a648-e46367bb624c",
+                "word": "Interested",
+                "type_id": "fc703ae7-9400-4a6c-9372-0191ba617772",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Showing curiosity or concern about something"
+              },
+              {
+                "id": "2a69321b-c9ba-493f-b01f-2163de5d81c0",
+                "word": "Inquiring",
+                "type_id": "fc703ae7-9400-4a6c-9372-0191ba617772",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Having or showing an interest in learning more"
+              },
+              {
+                "id": "7cd0ce0b-1e54-44ee-98e9-b29247fd4d8a",
+                "word": "Curious",
+                "type_id": "fc703ae7-9400-4a6c-9372-0191ba617772",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Eager to learn or know more"
+              },
+              {
+                "id": "168ffe59-72ca-4d33-8e68-6852c079fda6",
+                "word": "Intrigued",
+                "type_id": "fc703ae7-9400-4a6c-9372-0191ba617772",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Very interested or curious about something"
+              },
+              {
+                "id": "d4f8e746-c24b-47a8-bf08-c558d7424113",
+                "word": "Fascinated",
+                "type_id": "fc703ae7-9400-4a6c-9372-0191ba617772",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Intensely interested or captivated"
+              },
+              {
+                "id": "29d9fc1c-19a0-472c-9de3-5bc6c62744fa",
+                "word": "Absorbed",
+                "type_id": "fc703ae7-9400-4a6c-9372-0191ba617772",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Completely engrossed or engaged"
+              },
+              {
+                "id": "948c9a80-8afc-4c6d-91fd-3417d7a6c767",
+                "word": "Attentive",
+                "type_id": "fc703ae7-9400-4a6c-9372-0191ba617772",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Paying careful attention"
+              },
+              {
+                "id": "eedac581-2af5-459b-8beb-7f5cdd7c678c",
+                "word": "Inquisitive",
+                "type_id": "fc703ae7-9400-4a6c-9372-0191ba617772",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Having a desire to learn or know something"
+              },
+              {
+                "id": "caf97e3e-784f-4572-ac24-7d072f155782",
+                "word": "Engaged",
+                "type_id": "fc703ae7-9400-4a6c-9372-0191ba617772",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Actively interested or involved"
+              }
+            ]
+          },
+          {
+            "id": "a8361872-4a67-4cd0-91f7-9ce4a2a124bd",
+            "subcategory_id": "10bbeed7-89b2-4f5a-b165-01af6d4d6704",
+            "name": "Slang",
+            "created_at": "2025-01-23T21:15:54.287964+00:00",
+            "emotion_words": [
+              {
+                "id": "49d4fa63-30ee-4d9a-a3de-aac092cb01b3",
+                "word": "Nosey",
+                "type_id": "a8361872-4a67-4cd0-91f7-9ce4a2a124bd",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Overly curious about others' affairs"
+              },
+              {
+                "id": "95378d05-c133-4e02-bc3d-0f13b5db307f",
+                "word": "Snoopy",
+                "type_id": "a8361872-4a67-4cd0-91f7-9ce4a2a124bd",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Inquisitive in an intrusive way"
+              },
+              {
+                "id": "dbe086c6-bf39-4251-8efa-9e98d1d8145c",
+                "word": "All ears",
+                "type_id": "a8361872-4a67-4cd0-91f7-9ce4a2a124bd",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Very interested in hearing something"
+              },
+              {
+                "id": "c209281c-1244-4c06-a602-dca9575b789a",
+                "word": "Dying to know",
+                "type_id": "a8361872-4a67-4cd0-91f7-9ce4a2a124bd",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Very eager to learn something"
+              }
+            ]
+          },
+          {
+            "id": "80ce5def-5cf7-4327-8f98-4f37d84b9eeb",
+            "subcategory_id": "10bbeed7-89b2-4f5a-b165-01af6d4d6704",
+            "name": "Metaphorical",
+            "created_at": "2025-01-23T21:15:54.287964+00:00",
+            "emotion_words": [
+              {
+                "id": "7cab0057-2957-4963-94cb-2d5da55c1ba6",
+                "word": "Mind like a sponge",
+                "type_id": "80ce5def-5cf7-4327-8f98-4f37d84b9eeb",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Eagerly absorbing new information"
+              },
+              {
+                "id": "b674522c-8031-4b49-9dcb-f47b86228fee",
+                "word": "Eyes wide open",
+                "type_id": "80ce5def-5cf7-4327-8f98-4f37d84b9eeb",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Alert and eager to learn"
+              },
+              {
+                "id": "f31122e2-b034-48a9-b3f1-9a60142fcaa3",
+                "word": "Burning with curiosity",
+                "type_id": "80ce5def-5cf7-4327-8f98-4f37d84b9eeb",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Intensely eager to know something"
+              },
+              {
+                "id": "6f812ffe-7e6b-4e3a-916c-2de50eae82a4",
+                "word": "Thirst for knowledge",
+                "type_id": "80ce5def-5cf7-4327-8f98-4f37d84b9eeb",
+                "created_at": "2025-01-23T21:15:54.287964+00:00",
+                "definition": "Strong desire to learn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7c8c2a42-157b-45ab-b07a-8181ba4efaca",
+        "name": "Surprise/Amazement",
+        "emotion_types": [
+          {
+            "id": "febd2b90-5330-4098-8f73-7729cc9a7047",
+            "subcategory_id": "7c8c2a42-157b-45ab-b07a-8181ba4efaca",
+            "name": "Core",
+            "created_at": "2025-01-23T21:17:25.683932+00:00",
+            "emotion_words": [
+              {
+                "id": "c448c430-1e43-4db7-8a79-95c981ee9847",
+                "word": "Surprised",
+                "type_id": "febd2b90-5330-4098-8f73-7729cc9a7047",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Feeling or showing astonishment"
+              },
+              {
+                "id": "6f2fbee5-d2eb-4a6a-8d3c-fa23fc9657dc",
+                "word": "Amazed",
+                "type_id": "febd2b90-5330-4098-8f73-7729cc9a7047",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Feeling great wonder or astonishment"
+              },
+              {
+                "id": "1472c4d3-765b-4d49-b3f2-668353ae550a",
+                "word": "Astonished",
+                "type_id": "febd2b90-5330-4098-8f73-7729cc9a7047",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Greatly surprised or impressed"
+              },
+              {
+                "id": "4f07efdf-47ef-4db1-870f-7718f2e37725",
+                "word": "Stunned",
+                "type_id": "febd2b90-5330-4098-8f73-7729cc9a7047",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Extremely surprised or shocked"
+              },
+              {
+                "id": "df31dcaa-cc4d-4ac0-95aa-f3d1f50ac268",
+                "word": "Startled",
+                "type_id": "febd2b90-5330-4098-8f73-7729cc9a7047",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Suddenly surprised or alarmed"
+              },
+              {
+                "id": "ff22a730-d70b-4e47-baf8-e90a1b0ffe8b",
+                "word": "Dumbfounded",
+                "type_id": "febd2b90-5330-4098-8f73-7729cc9a7047",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "So surprised that one is temporarily speechless"
+              },
+              {
+                "id": "59724ead-9e46-4e1d-8f83-df9fdeec8374",
+                "word": "Awestruck",
+                "type_id": "febd2b90-5330-4098-8f73-7729cc9a7047",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Filled with wonder and amazement"
+              },
+              {
+                "id": "c363a08c-133e-4c66-981c-a06526805b7a",
+                "word": "Bewildered",
+                "type_id": "febd2b90-5330-4098-8f73-7729cc9a7047",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Perplexed and confused"
+              },
+              {
+                "id": "e9cff2a6-a20c-4089-a443-e15b6c425c5d",
+                "word": "Flabbergasted",
+                "type_id": "febd2b90-5330-4098-8f73-7729cc9a7047",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Greatly surprised or astonished"
+              },
+              {
+                "id": "84486dd2-7899-43af-ad83-007a02076775",
+                "word": "Speechless",
+                "type_id": "febd2b90-5330-4098-8f73-7729cc9a7047",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Unable to speak due to surprise or shock"
+              },
+              {
+                "id": "7290a99c-2612-4fe7-974e-16d29fa0083e",
+                "word": "Thunderstruck",
+                "type_id": "febd2b90-5330-4098-8f73-7729cc9a7047",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Extremely surprised or shocked"
+              },
+              {
+                "id": "38658ceb-7ccc-4117-a677-14b5da288c54",
+                "word": "Spellbound",
+                "type_id": "febd2b90-5330-4098-8f73-7729cc9a7047",
+                "created_at": "2025-01-23T21:21:35.051486+00:00",
+                "definition": "Held in or as if in a spell; fascinated"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3e359919-b924-4d28-a120-c6cf6ff4cf8f",
+        "name": "Contemplation/Reflection",
+        "emotion_types": [
+          {
+            "id": "45f6ff06-b35d-40a6-9cc7-54fde4e64693",
+            "subcategory_id": "3e359919-b924-4d28-a120-c6cf6ff4cf8f",
+            "name": "Core",
+            "created_at": "2025-01-23T21:17:25.683932+00:00",
+            "emotion_words": [
+              {
+                "id": "0ff6ee9e-4f9d-4d2d-afee-9b031f09a428",
+                "word": "Thoughtful",
+                "type_id": "45f6ff06-b35d-40a6-9cc7-54fde4e64693",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Absorbed in or characterized by thought"
+              },
+              {
+                "id": "98d40559-4dcd-46ad-85f0-93bf6a11bbac",
+                "word": "Pensive",
+                "type_id": "45f6ff06-b35d-40a6-9cc7-54fde4e64693",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Engaged in deep or serious thought"
+              },
+              {
+                "id": "43863ce1-a6d6-42a0-9d98-357e565ce9a2",
+                "word": "Reflective",
+                "type_id": "45f6ff06-b35d-40a6-9cc7-54fde4e64693",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Characterized by deep thought"
+              },
+              {
+                "id": "d88ca395-a4f1-4709-a18b-0b295e4ff66b",
+                "word": "Meditative",
+                "type_id": "45f6ff06-b35d-40a6-9cc7-54fde4e64693",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Absorbed in contemplation"
+              },
+              {
+                "id": "3758a179-4ee1-4d8e-9751-8d5cc865f5d4",
+                "word": "Contemplative",
+                "type_id": "45f6ff06-b35d-40a6-9cc7-54fde4e64693",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Involving deep reflection"
+              },
+              {
+                "id": "5561461a-00e5-4441-aebe-f107ef9c40e9",
+                "word": "Introspective",
+                "type_id": "45f6ff06-b35d-40a6-9cc7-54fde4e64693",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Examining one's own thoughts and feelings"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d6bad74b-a55c-4554-9905-ee1a7d1882ff",
+        "name": "Anticipation/Expectation",
+        "emotion_types": [
+          {
+            "id": "6dcd3f75-be63-4426-8a06-a326afefb29e",
+            "subcategory_id": "d6bad74b-a55c-4554-9905-ee1a7d1882ff",
+            "name": "Core",
+            "created_at": "2025-01-23T21:17:25.683932+00:00",
+            "emotion_words": [
+              {
+                "id": "3d9a79d5-ea1f-4ecc-ac12-4e4f601153ad",
+                "word": "Expectant",
+                "type_id": "6dcd3f75-be63-4426-8a06-a326afefb29e",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Having or showing an excited feeling that something is about to happen"
+              },
+              {
+                "id": "ddb9455b-34b0-4641-a9f3-b8bfe3208f12",
+                "word": "Anticipating",
+                "type_id": "6dcd3f75-be63-4426-8a06-a326afefb29e",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Regarding something that is going to happen"
+              },
+              {
+                "id": "2445a90a-9d0c-4443-b0f2-8e296649c96d",
+                "word": "Awaiting",
+                "type_id": "6dcd3f75-be63-4426-8a06-a326afefb29e",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Waiting for something expected"
+              },
+              {
+                "id": "00e9e86e-7581-4fc0-b61c-cb5d73413a51",
+                "word": "Prepared",
+                "type_id": "6dcd3f75-be63-4426-8a06-a326afefb29e",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Ready for what is about to happen"
+              },
+              {
+                "id": "09545ad5-c299-4aa8-9f09-79b289978921",
+                "word": "Watchful",
+                "type_id": "6dcd3f75-be63-4426-8a06-a326afefb29e",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Alert and vigilant for what may come"
+              },
+              {
+                "id": "37971227-a6c4-4269-8655-29a80f41bc96",
+                "word": "Ready",
+                "type_id": "6dcd3f75-be63-4426-8a06-a326afefb29e",
+                "created_at": "2025-01-23T21:17:25.683932+00:00",
+                "definition": "Prepared for what is about to occur"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6a89a0d8-f255-4b2d-9045-e7bbee2d9d04",
+        "name": "Confusion/Uncertainty",
+        "emotion_types": [
+          {
+            "id": "94061048-ed4e-4c23-a20d-b5e389f11e0f",
+            "subcategory_id": "6a89a0d8-f255-4b2d-9045-e7bbee2d9d04",
+            "name": "Core",
+            "created_at": "2025-01-23T21:21:35.9214+00:00",
+            "emotion_words": [
+              {
+                "id": "8dad5a0e-ee5d-429c-a152-7d919e0c0933",
+                "word": "Confused",
+                "type_id": "94061048-ed4e-4c23-a20d-b5e389f11e0f",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Unable to think clearly or understand"
+              },
+              {
+                "id": "cd607619-f00b-4cb6-9ad1-d147d287c579",
+                "word": "Uncertain",
+                "type_id": "94061048-ed4e-4c23-a20d-b5e389f11e0f",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Not completely confident or sure"
+              },
+              {
+                "id": "893a665e-9f75-4c8c-b45d-00bd60fbb9df",
+                "word": "Puzzled",
+                "type_id": "94061048-ed4e-4c23-a20d-b5e389f11e0f",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Unable to understand; perplexed"
+              },
+              {
+                "id": "2046a12c-dc63-4afa-b4a4-97f43c2a1592",
+                "word": "Lost",
+                "type_id": "94061048-ed4e-4c23-a20d-b5e389f11e0f",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Unable to find one's way or understand what to do"
+              },
+              {
+                "id": "fad24474-35eb-45da-afc4-4f85c695d01e",
+                "word": "Unsure",
+                "type_id": "94061048-ed4e-4c23-a20d-b5e389f11e0f",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Not confident about something"
+              },
+              {
+                "id": "0566c86b-332c-46fc-b301-8fb8da09bd3c",
+                "word": "Ambivalent",
+                "type_id": "94061048-ed4e-4c23-a20d-b5e389f11e0f",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Having mixed feelings about something"
+              },
+              {
+                "id": "aa560380-5ed3-4b63-b29b-4ae7d5e638c2",
+                "word": "Perplexed",
+                "type_id": "94061048-ed4e-4c23-a20d-b5e389f11e0f",
+                "created_at": "2025-01-23T21:21:35.9214+00:00",
+                "definition": "Completely baffled; very puzzled"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
