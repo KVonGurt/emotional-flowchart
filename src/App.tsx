@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Sparkles, Cloud, CircleDot, ArrowLeft, Info } from 'lucide-react';
+import { Sparkles, Cloud, CircleDot, ArrowLeft, Info, X } from 'lucide-react';
 import emotionsData from './data/emotions/emotions_data.json';
 
 // Update EmotionState to use strings instead of IDs
@@ -8,6 +8,12 @@ type EmotionState = {
   subcategory: string | null;
   type: string | null;
 };
+
+// Add this type near the top with other types
+type SelectedWordInfo = {
+  word: string;
+  definition: string;
+} | null;
 
 const categoryIcons: { [key: string]: React.ReactNode } = {
   "POSITIVE EMOTIONS": <Sparkles className="w-5 h-5 text-yellow-400" />,
@@ -51,7 +57,7 @@ function App() {
     subcategory: null,
     type: null
   });
-  const [selectedWord, setSelectedWord] = useState<string | null>(null);
+  const [selectedWord, setSelectedWord] = useState<SelectedWordInfo>(null);
   const [categories, setCategories] = useState<any[]>([]);
   const [subcategories, setSubcategories] = useState<any[]>([]);
   const [emotionTypes, setEmotionTypes] = useState<any[]>([]);
@@ -99,6 +105,11 @@ function App() {
     }
   };
 
+  // Add this function to handle closing the modal
+  const closeModal = () => {
+    setSelectedWord(null);
+  };
+
   const renderCategories = () => (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl">
       {categories.map((category) => (
@@ -144,20 +155,14 @@ function App() {
           <div className="p-6">
             <div className="flex flex-wrap gap-3">
               {type.emotion_words.map((wordObj: any) => (
-                <div key={wordObj.word} className="relative group">
-                  <button
-                    onClick={() => setSelectedWord(selectedWord === wordObj.word ? null : wordObj.word)}
-                    className={`px-4 py-2.5 bg-white rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors flex items-center gap-2 border border-gray-200 hover:border-gray-300 ${getAccentColor(currentCategory)}`}
-                  >
-                    {capitalizeFirstWord(wordObj.word)}
-                    <Info className="w-3.5 h-3.5 opacity-60" />
-                  </button>
-                  {selectedWord === wordObj.word && (
-                    <div className="absolute z-10 p-4 bg-white rounded-lg shadow-xl border border-gray-200 text-sm text-gray-600 min-w-[280px] max-w-[400px] whitespace-normal break-words bottom-[calc(100%+0.5rem)] right-0 sm:right-auto sm:left-1/2 sm:-translate-x-1/2">
-                      {wordObj.definition}
-                    </div>
-                  )}
-                </div>
+                <button
+                  key={wordObj.word}
+                  onClick={() => setSelectedWord({ word: wordObj.word, definition: wordObj.definition })}
+                  className={`px-4 py-2.5 bg-white rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors flex items-center gap-2 border border-gray-200 hover:border-gray-300 ${getAccentColor(currentCategory)}`}
+                >
+                  {capitalizeFirstWord(wordObj.word)}
+                  <Info className="w-3.5 h-3.5 opacity-60" />
+                </button>
               ))}
             </div>
           </div>
@@ -197,6 +202,28 @@ function App() {
           {selected.category && selected.subcategory && renderEmotionTypes()}
         </div>
       </div>
+
+      {/* Add Modal */}
+      {selectedWord && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+          <div className="bg-white rounded-xl max-w-lg w-full shadow-2xl">
+            <div className="flex items-center justify-between p-4 border-b">
+              <h3 className={`text-xl font-semibold ${getAccentColor(currentCategory)}`}>
+                {capitalizeFirstWord(selectedWord.word)}
+              </h3>
+              <button
+                onClick={closeModal}
+                className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+              >
+                <X className="w-5 h-5 text-gray-500" />
+              </button>
+            </div>
+            <div className="p-6 text-gray-600">
+              {selectedWord.definition}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
