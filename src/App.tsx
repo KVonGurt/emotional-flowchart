@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Sparkles, Cloud, CircleDot, ArrowLeft, Info } from 'lucide-react';
+import { Sparkles, Cloud, CircleDot, ArrowLeft, Info, Download } from 'lucide-react';
 import { EmotionState } from './types';
 import { supabase } from './lib/supabase';
 
@@ -114,6 +114,66 @@ function App() {
     }
   };
 
+  const handleDownload = async () => {
+    try {
+      console.log('Building emotions data...');
+      
+      // Fetch all data needed
+      const { data: categoriesData, error: catError } = await supabase
+        .from('categories')
+        .select('*');
+      
+      if (catError) throw catError;
+
+      // Build the hierarchical data
+      const fullData = await Promise.all(categoriesData.map(async (category) => {
+        // Get subcategories for this category
+        const { data: subcatsData } = await supabase
+          .from('subcategories')
+          .select('*')
+          .eq('category_id', category.id);
+
+        const subcategories = await Promise.all((subcatsData || []).map(async (sub) => {
+          // Get emotion types for this subcategory
+          const { data: typesData } = await supabase
+            .from('emotion_types')
+            .select(`
+              *,
+              emotion_words (*)
+            `)
+            .eq('subcategory_id', sub.id);
+
+          return {
+            id: sub.id,
+            name: sub.name,
+            emotion_types: typesData || []
+          };
+        }));
+
+        return {
+          id: category.id,
+          name: category.name,
+          subcategories
+        };
+      }));
+
+      console.log('Data built:', fullData);
+      
+      // Create and trigger download
+      const blob = new Blob([JSON.stringify(fullData, null, 2)], { type: 'application/json' });
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'emotions_data.json';
+      document.body.appendChild(a);
+      a.click();
+      window.URL.revokeObjectURL(url);
+      document.body.removeChild(a);
+    } catch (error) {
+      console.error('Caught error:', error);
+    }
+  };
+
   const renderCategories = () => (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl">
       {categories.map((category) => (
@@ -193,6 +253,14 @@ function App() {
               Emotional Flowchart
             </h1>
             <p className="text-gray-600 font-medium">Discover the perfect words to express how you feel</p>
+          </button>
+          
+          <button
+            onClick={handleDownload}
+            className="mt-4 inline-flex items-center px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors text-sm font-medium"
+          >
+            <Download className="w-4 h-4 mr-2" />
+            Download Emotions Data
           </button>
         </div>
 
