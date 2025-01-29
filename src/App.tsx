@@ -9,10 +9,23 @@ type EmotionState = {
   type: string | null;
 };
 
-// Add this type near the top with other types
+// Add these types near the top with other types
+type DictionaryResponse = {
+  word: string;
+  meanings: {
+    partOfSpeech: string;
+    definitions: {
+      definition: string;
+      example?: string;
+    }[];
+  }[];
+} | null;
+
 type SelectedWordInfo = {
   word: string;
-  definition: string;
+  dictionaryData: DictionaryResponse;
+  loading: boolean;
+  error?: string;
 } | null;
 
 const categoryIcons: { [key: string]: React.ReactNode } = {
@@ -110,6 +123,42 @@ function App() {
     setSelectedWord(null);
   };
 
+  const fetchWordDefinition = async (word: string, originalDefinition: string) => {
+    setSelectedWord({
+      word,
+      dictionaryData: null,
+      loading: true
+    });
+
+    try {
+      const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+      if (!response.ok) {
+        throw new Error('Word not found');
+      }
+      const data = await response.json();
+      setSelectedWord({
+        word,
+        dictionaryData: data[0],
+        loading: false
+      });
+    } catch (error) {
+      // Fall back to the original definition from JSON
+      setSelectedWord({
+        word,
+        dictionaryData: {
+          word,
+          meanings: [{
+            partOfSpeech: 'definition',
+            definitions: [{
+              definition: originalDefinition
+            }]
+          }]
+        },
+        loading: false
+      });
+    }
+  };
+
   const renderCategories = () => (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl">
       {categories.map((category) => (
@@ -157,7 +206,7 @@ function App() {
               {type.emotion_words.map((wordObj: any) => (
                 <button
                   key={wordObj.word}
-                  onClick={() => setSelectedWord({ word: wordObj.word, definition: wordObj.definition })}
+                  onClick={() => fetchWordDefinition(wordObj.word, wordObj.definition)}
                   className={`px-4 py-2.5 bg-white rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors flex items-center gap-2 border border-gray-200 hover:border-gray-300 ${getAccentColor(currentCategory)}`}
                 >
                   {capitalizeFirstWord(wordObj.word)}
@@ -203,7 +252,7 @@ function App() {
         </div>
       </div>
 
-      {/* Add Modal */}
+      {/* Modal */}
       {selectedWord && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-xl max-w-lg w-full shadow-2xl">
@@ -218,8 +267,36 @@ function App() {
                 <X className="w-5 h-5 text-gray-500" />
               </button>
             </div>
-            <div className="p-6 text-gray-600">
-              {selectedWord.definition}
+            <div className="p-6">
+              {selectedWord.loading ? (
+                <div className="text-gray-600">Loading definition...</div>
+              ) : selectedWord.error ? (
+                <div className="text-red-500">{selectedWord.error}</div>
+              ) : selectedWord.dictionaryData ? (
+                <div className="space-y-4">
+                  {selectedWord.dictionaryData.meanings.map((meaning, index) => (
+                    <div key={index} className="space-y-2">
+                      <h4 className="font-medium text-gray-700 italic">
+                        {meaning.partOfSpeech}
+                      </h4>
+                      <ul className="list-disc list-inside space-y-2">
+                        {meaning.definitions.map((def, defIndex) => (
+                          <li key={defIndex} className="text-gray-600">
+                            {def.definition}
+                            {def.example && (
+                              <p className="text-gray-500 italic ml-5 mt-1">
+                                Example: {def.example}
+                              </p>
+                            )}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="text-gray-600">No definition available</div>
+              )}
             </div>
           </div>
         </div>
