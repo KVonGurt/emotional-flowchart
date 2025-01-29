@@ -153,7 +153,7 @@ function App() {
                     <Info className="w-3.5 h-3.5 opacity-60" />
                   </button>
                   {selectedWord === wordObj.word && (
-                    <div className="absolute z-10 mt-2 p-4 bg-white rounded-lg shadow-xl border border-gray-200 text-sm max-w-[280px] text-gray-600">
+                    <div className="absolute z-10 p-4 bg-white rounded-lg shadow-xl border border-gray-200 text-sm text-gray-600 min-w-[280px] max-w-[400px] whitespace-normal break-words bottom-[calc(100%+0.5rem)] right-0 sm:right-auto sm:left-1/2 sm:-translate-x-1/2">
                       {wordObj.definition}
                     </div>
                   )}
