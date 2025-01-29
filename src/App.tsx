@@ -41,6 +41,10 @@ const getAccentColor = (categoryName: string) => {
   }
 };
 
+const capitalizeFirstWord = (text: string) => {
+  return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
+};
+
 function App() {
   const [selected, setSelected] = useState<EmotionState>({
     category: null,
@@ -123,7 +127,7 @@ function App() {
           className={`p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all border border-gray-100 hover:-translate-y-0.5 transform group`}
         >
           <h3 className={`text-lg font-semibold text-center ${getAccentColor(currentCategory)} group-hover:opacity-80 transition-opacity`}>
-            {sub.name}
+            {capitalizeFirstWord(sub.name)}
           </h3>
         </button>
       ))}
@@ -135,7 +139,7 @@ function App() {
       {emotionTypes.map((type) => (
         <div key={type.name} className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
           <h3 className={`text-lg font-semibold px-6 py-4 ${getAccentColor(currentCategory)} border-b border-gray-100`}>
-            {type.name}
+            {capitalizeFirstWord(type.name)}
           </h3>
           <div className="p-6">
             <div className="flex flex-wrap gap-3">
@@ -145,7 +149,7 @@ function App() {
                     onClick={() => setSelectedWord(selectedWord === wordObj.word ? null : wordObj.word)}
                     className={`px-4 py-2.5 bg-white rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors flex items-center gap-2 border border-gray-200 hover:border-gray-300 ${getAccentColor(currentCategory)}`}
                   >
-                    {wordObj.word}
+                    {capitalizeFirstWord(wordObj.word)}
                     <Info className="w-3.5 h-3.5 opacity-60" />
                   </button>
                   {selectedWord === wordObj.word && (
