@@ -1,7 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Sparkles, Cloud, CircleDot, ArrowLeft, Info, Download } from 'lucide-react';
-import { EmotionState } from './types';
 import emotionsData from './data/emotions/emotions_data.json';
+
+// Update EmotionState to use strings instead of IDs
+type EmotionState = {
+  category: string | null;
+  subcategory: string | null;
+  type: string | null;
+};
 
 const categoryIcons: { [key: string]: React.ReactNode } = {
   "POSITIVE EMOTIONS": <Sparkles className="w-5 h-5 text-yellow-400" />,
@@ -48,14 +54,13 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState<string>("");
 
   useEffect(() => {
-    // Load categories from local JSON
     setCategories(emotionsData);
   }, []);
 
   useEffect(() => {
     if (selected.category) {
-      // Find subcategories from the selected category
-      const category = categories.find(c => c.id === selected.category);
+      // Find subcategories from the selected category using name
+      const category = categories.find(c => c.name === selected.category);
       setSubcategories(category?.subcategories || []);
       setCurrentCategory(category?.name || "");
     }
@@ -63,9 +68,9 @@ function App() {
 
   useEffect(() => {
     if (selected.subcategory) {
-      // Find emotion types from the selected subcategory
-      const category = categories.find(c => c.id === selected.category);
-      const subcategory = category?.subcategories.find(s => s.id === selected.subcategory);
+      // Find emotion types from the selected subcategory using name
+      const category = categories.find(c => c.name === selected.category);
+      const subcategory = category?.subcategories.find(s => s.name === selected.subcategory);
       setEmotionTypes(subcategory?.emotion_types || []);
     }
   }, [selected.subcategory, categories, selected.category]);
@@ -92,8 +97,22 @@ function App() {
 
   const handleDownload = () => {
     try {
-      // Create and trigger download
-      const blob = new Blob([JSON.stringify(emotionsData, null, 2)], { type: 'application/json' });
+      // Clean and transform the data
+      const cleanedData = emotionsData.map(category => ({
+        name: category.name,
+        subcategories: category.subcategories.map(subcategory => ({
+          name: subcategory.name,
+          emotion_types: subcategory.emotion_types.map(type => ({
+            name: type.name,
+            emotion_words: type.emotion_words.map(word => ({
+              word: word.word,
+              definition: word.definition
+            }))
+          }))
+        }))
+      }));
+
+      const blob = new Blob([JSON.stringify(cleanedData, null, 2)], { type: 'application/json' });
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
@@ -111,8 +130,8 @@ function App() {
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl">
       {categories.map((category) => (
         <button
-          key={category.id}
-          onClick={() => setSelected({ ...selected, category: category.id })}
+          key={category.name}
+          onClick={() => setSelected({ ...selected, category: category.name })}
           className={`p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 bg-gradient-to-br ${getCategoryStyle(category.name)}`}
         >
           <div className="flex items-center justify-center gap-3">
@@ -130,8 +149,8 @@ function App() {
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full max-w-6xl">
       {subcategories.map((sub) => (
         <button
-          key={sub.id}
-          onClick={() => setSelected({ ...selected, subcategory: sub.id })}
+          key={sub.name}
+          onClick={() => setSelected({ ...selected, subcategory: sub.name })}
           className={`p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all border border-gray-100 hover:-translate-y-0.5 transform group`}
         >
           <h3 className={`text-lg font-semibold text-center ${getAccentColor(currentCategory)} group-hover:opacity-80 transition-opacity`}>
@@ -145,14 +164,14 @@ function App() {
   const renderEmotionTypes = () => (
     <div className="w-full max-w-6xl space-y-6">
       {emotionTypes.map((type) => (
-        <div key={type.id} className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
+        <div key={type.name} className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden">
           <h3 className={`text-lg font-semibold px-6 py-4 ${getAccentColor(currentCategory)} border-b border-gray-100`}>
             {type.name}
           </h3>
           <div className="p-6">
             <div className="flex flex-wrap gap-3">
               {type.emotion_words.map((wordObj: any) => (
-                <div key={wordObj.id} className="relative group">
+                <div key={wordObj.word} className="relative group">
                   <button
                     onClick={() => setSelectedWord(selectedWord === wordObj.word ? null : wordObj.word)}
                     className={`px-4 py-2.5 bg-white rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors flex items-center gap-2 border border-gray-200 hover:border-gray-300 ${getAccentColor(currentCategory)}`}
