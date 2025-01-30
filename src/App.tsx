@@ -291,13 +291,14 @@ function App() {
                   {(selectedWord.dictionaryData.phonetic || selectedWord.dictionaryData.phonetics.length > 0) && (
                     <div className="space-y-3">
                       <h4 className="font-medium text-gray-700">Pronunciation</h4>
-                      {selectedWord.dictionaryData.phonetic && (
+                      {selectedWord.dictionaryData.phonetic && 
+                       !selectedWord.dictionaryData.phonetics.some(p => p.text === selectedWord.dictionaryData?.phonetic) && (
                         <div className="text-gray-600">{selectedWord.dictionaryData.phonetic}</div>
-                      )}
+                       )}
                       {selectedWord.dictionaryData.phonetics.map((phonetic, index) => (
                         <div key={index} className="flex items-center gap-3">
                           {phonetic.text && <span className="text-gray-600">{phonetic.text}</span>}
-                          {phonetic.audio && (
+                          {phonetic.audio && phonetic.audio !== "" && (
                             <button
                               onClick={() => new Audio(phonetic.audio).play()}
                               className="px-3 py-1 text-sm bg-gray-100 hover:bg-gray-200 rounded-md text-gray-700 transition-colors"
