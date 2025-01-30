@@ -135,6 +135,22 @@ function App() {
     setSelectedWord(null);
   };
 
+  const findWordInEmotionsData = (word: string): { word: string, definition: string } | null => {
+    for (const category of emotionsData) {
+      for (const subcategory of category.subcategories) {
+        for (const emotionType of subcategory.emotion_types) {
+          const foundWord = emotionType.emotion_words.find(
+            w => w.word.toLowerCase() === word.toLowerCase()
+          );
+          if (foundWord) {
+            return foundWord;
+          }
+        }
+      }
+    }
+    return null;
+  };
+
   const fetchWordDefinition = async (word: string, originalDefinition: string) => {
     setSelectedWord({
       word,
@@ -145,20 +161,51 @@ function App() {
     try {
       const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
       if (!response.ok) {
-        throw new Error('Word not found');
+        // Instead of throwing error, fall back to emotions data
+        const localWord = findWordInEmotionsData(word);
+        if (!localWord) {
+          throw new Error('Word not found in dictionary or local data');
+        }
+        
+        setSelectedWord({
+          word: localWord.word,
+          dictionaryData: {
+            word: localWord.word,
+            phonetics: [],
+            meanings: [{
+              partOfSpeech: 'definition',
+              definitions: [{
+                definition: localWord.definition
+              }]
+            }]
+          },
+          loading: false,
+          rawResponse: null
+        });
+        return;
       }
+      
       const data = await response.json();
-      setSelectedWord({
-        word,
-        dictionaryData: data[0],
-        loading: false,
-        rawResponse: data
-      });
-    } catch (error) {
       setSelectedWord({
         word,
         dictionaryData: {
           word,
+          phonetics: data[0].phonetics || [],
+          meanings: data[0].meanings,
+          sourceUrls: data[0].sourceUrls,
+          phonetic: data[0].phonetic,
+          origin: data[0].origin
+        },
+        loading: false,
+        rawResponse: data
+      });
+    } catch (error) {
+      // Final fallback using the passed originalDefinition
+      setSelectedWord({
+        word,
+        dictionaryData: {
+          word,
+          phonetics: [],
           meanings: [{
             partOfSpeech: 'definition',
             definitions: [{
@@ -167,6 +214,7 @@ function App() {
           }]
         },
         loading: false,
+        error: error instanceof Error ? error.message : 'Failed to fetch definition',
         rawResponse: null
       });
     }
