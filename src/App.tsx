@@ -393,8 +393,8 @@ function App() {
                               {def.synonyms && def.synonyms.length > 0 && (
                                 <div className="ml-7 text-sm">
                                   <span className="text-gray-500">Synonyms: </span>
-                                  <span className="text-blue-600">
-                                    {def.synonyms.join(", ")}
+                                  <span className="font-semibold">
+                                    {[...new Set(def.synonyms)].join(", ")}
                                   </span>
                                 </div>
                               )}
@@ -402,8 +402,8 @@ function App() {
                               {def.antonyms && def.antonyms.length > 0 && (
                                 <div className="ml-7 text-sm">
                                   <span className="text-gray-500">Antonyms: </span>
-                                  <span className="text-red-600">
-                                    {def.antonyms.join(", ")}
+                                  <span className="font-semibold">
+                                    {[...new Set(def.antonyms)].join(", ")}
                                   </span>
                                 </div>
                               )}
@@ -415,8 +415,8 @@ function App() {
                         {meaning.synonyms && meaning.synonyms.length > 0 && (
                           <div className="pt-2 border-t">
                             <span className="text-gray-500 text-sm">Related synonyms: </span>
-                            <span className="text-blue-600 text-sm">
-                              {meaning.synonyms.join(", ")}
+                            <span className="text-sm font-semibold">
+                              {[...new Set(meaning.synonyms)].join(", ")}
                             </span>
                           </div>
                         )}
@@ -425,8 +425,8 @@ function App() {
                         {meaning.antonyms && meaning.antonyms.length > 0 && (
                           <div className="pt-2 border-t">
                             <span className="text-gray-500 text-sm">Related antonyms: </span>
-                            <span className="text-red-600 text-sm">
-                              {meaning.antonyms.join(", ")}
+                            <span className="text-sm font-semibold">
+                              {[...new Set(meaning.antonyms)].join(", ")}
                             </span>
                           </div>
                         )}
