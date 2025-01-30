@@ -316,8 +316,8 @@ function App() {
       {/* Modal */}
       {selectedWord && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
-          <div className="bg-white rounded-xl max-w-lg w-full shadow-2xl max-h-[90vh] overflow-y-auto">
-            <div className="flex items-center justify-between p-4 border-b">
+          <div className="bg-white rounded-xl max-w-lg w-full shadow-2xl max-h-[90vh] flex flex-col">
+            <div className="flex items-center justify-between p-4 border-b sticky top-0 bg-white rounded-t-xl z-10">
               <h3 className={`text-xl font-semibold ${getAccentColor(currentCategory)}`}>
                 {capitalizeFirstWord(selectedWord.word)}
               </h3>
@@ -328,136 +328,138 @@ function App() {
                 <X className="w-5 h-5 text-gray-500" />
               </button>
             </div>
-            <div className="p-6">
-              {selectedWord.loading ? (
-                <div className="text-gray-600">Loading definition...</div>
-              ) : selectedWord.error ? (
-                <div className="text-red-500">{selectedWord.error}</div>
-              ) : selectedWord.dictionaryData ? (
-                <div className="space-y-6">
-                  {/* Phonetics Section */}
-                  {(selectedWord.dictionaryData.phonetic || selectedWord.dictionaryData.phonetics.length > 0) && (
-                    <div className="space-y-3">
-                      <h4 className="font-medium text-gray-700">Pronunciation</h4>
-                      {selectedWord.dictionaryData.phonetic && 
-                       !selectedWord.dictionaryData.phonetics.some(p => p.text === selectedWord.dictionaryData?.phonetic) && (
-                        <div className="text-gray-600">{selectedWord.dictionaryData.phonetic}</div>
-                       )}
-                      {selectedWord.dictionaryData.phonetics.map((phonetic, index) => (
-                        <div key={index} className="flex items-center gap-3">
-                          {phonetic.text && <span className="text-gray-600">{phonetic.text}</span>}
-                          {phonetic.audio && phonetic.audio !== "" && (
-                            <button
-                              onClick={() => new Audio(phonetic.audio).play()}
-                              className="px-3 py-1 text-sm bg-gray-100 hover:bg-gray-200 rounded-md text-gray-700 transition-colors"
-                            >
-                              Play Audio
-                            </button>
+            <div className="overflow-y-auto">
+              <div className="p-6">
+                {selectedWord.loading ? (
+                  <div className="text-gray-600">Loading definition...</div>
+                ) : selectedWord.error ? (
+                  <div className="text-red-500">{selectedWord.error}</div>
+                ) : selectedWord.dictionaryData ? (
+                  <div className="space-y-6">
+                    {/* Phonetics Section */}
+                    {(selectedWord.dictionaryData.phonetic || selectedWord.dictionaryData.phonetics.length > 0) && (
+                      <div className="space-y-3">
+                        <h4 className="font-medium text-gray-700">Pronunciation</h4>
+                        {selectedWord.dictionaryData.phonetic && 
+                         !selectedWord.dictionaryData.phonetics.some(p => p.text === selectedWord.dictionaryData?.phonetic) && (
+                          <div className="text-gray-600">{selectedWord.dictionaryData.phonetic}</div>
+                         )}
+                        {selectedWord.dictionaryData.phonetics.map((phonetic, index) => (
+                          <div key={index} className="flex items-center gap-3">
+                            {phonetic.text && <span className="text-gray-600">{phonetic.text}</span>}
+                            {phonetic.audio && phonetic.audio !== "" && (
+                              <button
+                                onClick={() => new Audio(phonetic.audio).play()}
+                                className="px-3 py-1 text-sm bg-gray-100 hover:bg-gray-200 rounded-md text-gray-700 transition-colors"
+                              >
+                                Play Audio
+                              </button>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
+                    {/* Origin Section */}
+                    {selectedWord.dictionaryData.origin && (
+                      <div className="space-y-2">
+                        <h4 className="font-medium text-gray-700">Origin</h4>
+                        <p className="text-gray-600">{selectedWord.dictionaryData.origin}</p>
+                      </div>
+                    )}
+
+                    {/* Meanings Section */}
+                    <div className="space-y-6">
+                      {selectedWord.dictionaryData.meanings.map((meaning, index) => (
+                        <div key={index} className="space-y-3">
+                          <h4 className="font-medium text-gray-700 italic">
+                            {meaning.partOfSpeech}
+                          </h4>
+                          
+                          {/* Definitions */}
+                          <div className="space-y-4">
+                            {meaning.definitions.map((def, defIndex) => (
+                              <div key={defIndex} className="space-y-2">
+                                <div className="flex gap-2">
+                                  <span className="text-gray-400 min-w-[1.5rem]">{defIndex + 1}.</span>
+                                  <span className="text-gray-600">{def.definition}</span>
+                                </div>
+                                
+                                {def.example && (
+                                  <p className="text-gray-500 italic ml-7">
+                                    Example: "{def.example}"
+                                  </p>
+                                )}
+                                
+                                {def.synonyms && def.synonyms.length > 0 && (
+                                  <div className="ml-7 text-sm">
+                                    <span className="text-gray-500">Synonyms: </span>
+                                    <span className="font-semibold">
+                                      {[...new Set(def.synonyms)].join(", ")}
+                                    </span>
+                                  </div>
+                                )}
+                                
+                                {def.antonyms && def.antonyms.length > 0 && (
+                                  <div className="ml-7 text-sm">
+                                    <span className="text-gray-500">Antonyms: </span>
+                                    <span className="font-semibold">
+                                      {[...new Set(def.antonyms)].join(", ")}
+                                    </span>
+                                  </div>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+
+                          {/* Part of Speech Level Synonyms */}
+                          {meaning.synonyms && meaning.synonyms.length > 0 && (
+                            <div className="pt-2 border-t">
+                              <span className="text-gray-500 text-sm">Related synonyms: </span>
+                              <span className="text-sm font-semibold">
+                                {[...new Set(meaning.synonyms)].join(", ")}
+                              </span>
+                            </div>
+                          )}
+
+                          {/* Part of Speech Level Antonyms */}
+                          {meaning.antonyms && meaning.antonyms.length > 0 && (
+                            <div className="pt-2 border-t">
+                              <span className="text-gray-500 text-sm">Related antonyms: </span>
+                              <span className="text-sm font-semibold">
+                                {[...new Set(meaning.antonyms)].join(", ")}
+                              </span>
+                            </div>
                           )}
                         </div>
                       ))}
                     </div>
-                  )}
 
-                  {/* Origin Section */}
-                  {selectedWord.dictionaryData.origin && (
-                    <div className="space-y-2">
-                      <h4 className="font-medium text-gray-700">Origin</h4>
-                      <p className="text-gray-600">{selectedWord.dictionaryData.origin}</p>
-                    </div>
-                  )}
-
-                  {/* Meanings Section */}
-                  <div className="space-y-6">
-                    {selectedWord.dictionaryData.meanings.map((meaning, index) => (
-                      <div key={index} className="space-y-3">
-                        <h4 className="font-medium text-gray-700 italic">
-                          {meaning.partOfSpeech}
-                        </h4>
-                        
-                        {/* Definitions */}
-                        <div className="space-y-4">
-                          {meaning.definitions.map((def, defIndex) => (
-                            <div key={defIndex} className="space-y-2">
-                              <div className="flex gap-2">
-                                <span className="text-gray-400 min-w-[1.5rem]">{defIndex + 1}.</span>
-                                <span className="text-gray-600">{def.definition}</span>
-                              </div>
-                              
-                              {def.example && (
-                                <p className="text-gray-500 italic ml-7">
-                                  Example: "{def.example}"
-                                </p>
-                              )}
-                              
-                              {def.synonyms && def.synonyms.length > 0 && (
-                                <div className="ml-7 text-sm">
-                                  <span className="text-gray-500">Synonyms: </span>
-                                  <span className="font-semibold">
-                                    {[...new Set(def.synonyms)].join(", ")}
-                                  </span>
-                                </div>
-                              )}
-                              
-                              {def.antonyms && def.antonyms.length > 0 && (
-                                <div className="ml-7 text-sm">
-                                  <span className="text-gray-500">Antonyms: </span>
-                                  <span className="font-semibold">
-                                    {[...new Set(def.antonyms)].join(", ")}
-                                  </span>
-                                </div>
-                              )}
-                            </div>
+                    {/* Source URLs */}
+                    {selectedWord.dictionaryData.sourceUrls && selectedWord.dictionaryData.sourceUrls.length > 0 && (
+                      <div className="pt-4 border-t text-sm text-gray-500">
+                        <h4 className="font-medium text-gray-700 mb-2">Sources</h4>
+                        <ul className="space-y-1">
+                          {selectedWord.dictionaryData.sourceUrls.map((url, index) => (
+                            <li key={index}>
+                              <a 
+                                href={url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-600 hover:underline"
+                              >
+                                {url}
+                              </a>
+                            </li>
                           ))}
-                        </div>
-
-                        {/* Part of Speech Level Synonyms */}
-                        {meaning.synonyms && meaning.synonyms.length > 0 && (
-                          <div className="pt-2 border-t">
-                            <span className="text-gray-500 text-sm">Related synonyms: </span>
-                            <span className="text-sm font-semibold">
-                              {[...new Set(meaning.synonyms)].join(", ")}
-                            </span>
-                          </div>
-                        )}
-
-                        {/* Part of Speech Level Antonyms */}
-                        {meaning.antonyms && meaning.antonyms.length > 0 && (
-                          <div className="pt-2 border-t">
-                            <span className="text-gray-500 text-sm">Related antonyms: </span>
-                            <span className="text-sm font-semibold">
-                              {[...new Set(meaning.antonyms)].join(", ")}
-                            </span>
-                          </div>
-                        )}
+                        </ul>
                       </div>
-                    ))}
+                    )}
                   </div>
-
-                  {/* Source URLs */}
-                  {selectedWord.dictionaryData.sourceUrls && selectedWord.dictionaryData.sourceUrls.length > 0 && (
-                    <div className="pt-4 border-t text-sm text-gray-500">
-                      <h4 className="font-medium text-gray-700 mb-2">Sources</h4>
-                      <ul className="space-y-1">
-                        {selectedWord.dictionaryData.sourceUrls.map((url, index) => (
-                          <li key={index}>
-                            <a 
-                              href={url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-blue-600 hover:underline"
-                            >
-                              {url}
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                </div>
-              ) : (
-                <div className="text-gray-600">No definition available</div>
-              )}
+                ) : (
+                  <div className="text-gray-600">No definition available</div>
+                )}
+              </div>
             </div>
 
             {/* Add Debug Panel */}
