@@ -53,13 +53,38 @@ type DictionaryResponse = {
   sourceUrls?: string[];
 } | null;
 
+// Update the SelectedWordInfo type to use a more specific type for rawResponse
 type SelectedWordInfo = {
   word: string;
   dictionaryData: DictionaryResponse;
   loading: boolean;
   error?: string;
-  rawResponse?: any;
+  // Replace any with DictionaryApiResponse type
+  rawResponse?: DictionaryApiResponse[];
 } | null;
+
+// Add this new type for the Dictionary API response
+type DictionaryApiResponse = {
+  word: string;
+  phonetic?: string;
+  phonetics: {
+    text?: string;
+    audio?: string;
+  }[];
+  meanings: {
+    partOfSpeech: string;
+    definitions: {
+      definition: string;
+      example?: string;
+      synonyms?: string[];
+      antonyms?: string[];
+    }[];
+    synonyms?: string[];
+    antonyms?: string[];
+  }[];
+  sourceUrls?: string[];
+  origin?: string;
+};
 
 const categoryIcons: { [key: string]: React.ReactNode } = {
   "POSITIVE EMOTIONS": <Sparkles className="w-5 h-5 text-yellow-400" />,
