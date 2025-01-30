@@ -2,6 +2,27 @@ import React, { useState, useEffect } from 'react';
 import { Sparkles, Cloud, CircleDot, ArrowLeft, Info, X } from 'lucide-react';
 import emotionsData from './data/emotions/emotions_data.json';
 
+// Add these type definitions at the top of the file with other types
+interface EmotionWord {
+  word: string;
+  definition: string;
+}
+
+interface EmotionType {
+  name: string;
+  emotion_words: EmotionWord[];
+}
+
+interface Subcategory {
+  name: string;
+  emotion_types: EmotionType[];
+}
+
+interface Category {
+  name: string;
+  subcategories: Subcategory[];
+}
+
 // Update EmotionState to use strings instead of IDs
 type EmotionState = {
   category: string | null;
@@ -83,9 +104,9 @@ function App() {
     type: null
   });
   const [selectedWord, setSelectedWord] = useState<SelectedWordInfo>(null);
-  const [categories, setCategories] = useState<any[]>([]);
-  const [subcategories, setSubcategories] = useState<any[]>([]);
-  const [emotionTypes, setEmotionTypes] = useState<any[]>([]);
+  const [categories, setCategories] = useState<Category[]>([]);
+  const [subcategories, setSubcategories] = useState<Subcategory[]>([]);
+  const [emotionTypes, setEmotionTypes] = useState<EmotionType[]>([]);
   const [currentCategory, setCurrentCategory] = useState<string>("");
 
   useEffect(() => {
@@ -264,7 +285,7 @@ function App() {
           </h3>
           <div className="p-6">
             <div className="flex flex-wrap gap-3">
-              {type.emotion_words.map((wordObj: any) => (
+              {type.emotion_words.map((wordObj: EmotionWord) => (
                 <button
                   key={wordObj.word}
                   onClick={() => fetchWordDefinition(wordObj.word, wordObj.definition)}
